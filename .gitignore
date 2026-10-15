@@ -1,0 +1,20 @@
+/build*/
+dist/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+__pycache__/
+*.p8
+*.p12
+*.mobileprovision
+*.keychain*
+.env
+.env.*
+# Private store/signing records are not part of the open-source distribution.
+/docs/
+/store/
+/AGENTS.md
+/visualizations/
+/scripts/build_development.sh
+/scripts/package_source.py

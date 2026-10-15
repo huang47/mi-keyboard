@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/fcitx/fcitx5-table-extra",
+  "commit": "dbc7154a7f0b9fc04313160ae8066ed4d8cbc446",
+  "data_file": "tables/boshiamy.txt",
+  "sha256": "5aa82bd652c4c14fc397e7f48b02e4554023ad0fef5368938acf84661ef3da18",
+  "data_license": "Public domain, as declared in upstream README",
+  "code_license": "GPL-3.0-or-later; no upstream engine code incorporated"
+}

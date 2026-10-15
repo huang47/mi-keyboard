@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0 (5)",
+  "sha256": {
+    "KeyboardUI/KeyboardView.swift": "4c965b1ddd84f2a3f7f4c3e050b5225c384b4f031d6ae2db6a5c86b7f65e3f59",
+    "Shared/CodeTable.swift": "2b440de835443adeb259e56fef0e6d756f98422ef6fad2a8cbefc61a541faab1",
+    "Shared/PackedCodeTable.swift": "5373ddb4d33c1320ed4fc52b7f9ab6a9e0db2ebb47856e6601498bb71f7c2938",
+    "Shared/TableStore.swift": "1fcaf23328fc8a2ae5718af9c8140aafe46fc34046e2d834cf19585086a017eb",
+    "Shared/CompositionEngine.swift": "a4fd729a0c4f583bfc3a23c6fc50415e90d890e9d1a7b17e4f2dfb1e26de4bcd",
+    "Shared/TableJSON.swift": "069b6144eb92577adf10b6d91f73fa8bb8155c9d5ee804ff9eecf45afbf3591c"
+  },
+  "description": "Immutable shipped build 5 keyboard and shared engine; generated namespaced copies are test-only."
+}

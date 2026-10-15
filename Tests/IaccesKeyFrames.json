@@ -1,0 +1,300 @@
+{
+  "referenceWidth": 1280,
+  "measurement": "Visible key surfaces segmented at luminance 115 from the supplied JPEG; anti-aliased borders permit 1.5 reference pixels plus screen rounding. Key y is relative to the number-row top.",
+  "keys": [
+    {
+      "id": "key-1",
+      "x": 14,
+      "y": 0,
+      "width": 104,
+      "height": 138
+    },
+    {
+      "id": "key-2",
+      "x": 142,
+      "y": 0,
+      "width": 103,
+      "height": 138
+    },
+    {
+      "id": "key-3",
+      "x": 269,
+      "y": 0,
+      "width": 104,
+      "height": 138
+    },
+    {
+      "id": "key-4",
+      "x": 397,
+      "y": 0,
+      "width": 103,
+      "height": 138
+    },
+    {
+      "id": "key-5",
+      "x": 525,
+      "y": 0,
+      "width": 104,
+      "height": 138
+    },
+    {
+      "id": "key-6",
+      "x": 653,
+      "y": 0,
+      "width": 103,
+      "height": 138
+    },
+    {
+      "id": "key-7",
+      "x": 781,
+      "y": 0,
+      "width": 103,
+      "height": 138
+    },
+    {
+      "id": "key-8",
+      "x": 908,
+      "y": 0,
+      "width": 104,
+      "height": 138
+    },
+    {
+      "id": "key-9",
+      "x": 1036,
+      "y": 0,
+      "width": 103,
+      "height": 138
+    },
+    {
+      "id": "key-0",
+      "x": 1164,
+      "y": 0,
+      "width": 103,
+      "height": 138
+    },
+    {
+      "id": "key-q",
+      "x": 14,
+      "y": 186,
+      "width": 104,
+      "height": 137
+    },
+    {
+      "id": "key-w",
+      "x": 142,
+      "y": 186,
+      "width": 103,
+      "height": 137
+    },
+    {
+      "id": "key-e",
+      "x": 269,
+      "y": 186,
+      "width": 104,
+      "height": 137
+    },
+    {
+      "id": "key-r",
+      "x": 397,
+      "y": 186,
+      "width": 103,
+      "height": 137
+    },
+    {
+      "id": "key-t",
+      "x": 525,
+      "y": 186,
+      "width": 104,
+      "height": 137
+    },
+    {
+      "id": "key-y",
+      "x": 653,
+      "y": 186,
+      "width": 103,
+      "height": 137
+    },
+    {
+      "id": "key-u",
+      "x": 781,
+      "y": 186,
+      "width": 103,
+      "height": 137
+    },
+    {
+      "id": "key-i",
+      "x": 908,
+      "y": 186,
+      "width": 104,
+      "height": 137
+    },
+    {
+      "id": "key-o",
+      "x": 1036,
+      "y": 186,
+      "width": 103,
+      "height": 137
+    },
+    {
+      "id": "key-p",
+      "x": 1164,
+      "y": 186,
+      "width": 103,
+      "height": 137
+    },
+    {
+      "id": "key-a",
+      "x": 78,
+      "y": 375,
+      "width": 104,
+      "height": 137
+    },
+    {
+      "id": "key-s",
+      "x": 206,
+      "y": 375,
+      "width": 105,
+      "height": 137
+    },
+    {
+      "id": "key-d",
+      "x": 334,
+      "y": 375,
+      "width": 104,
+      "height": 137
+    },
+    {
+      "id": "key-f",
+      "x": 462,
+      "y": 375,
+      "width": 104,
+      "height": 137
+    },
+    {
+      "id": "key-g",
+      "x": 589,
+      "y": 375,
+      "width": 104,
+      "height": 137
+    },
+    {
+      "id": "key-h",
+      "x": 717,
+      "y": 375,
+      "width": 104,
+      "height": 137
+    },
+    {
+      "id": "key-j",
+      "x": 844,
+      "y": 375,
+      "width": 104,
+      "height": 137
+    },
+    {
+      "id": "key-k",
+      "x": 972,
+      "y": 375,
+      "width": 105,
+      "height": 137
+    },
+    {
+      "id": "key-l",
+      "x": 1100,
+      "y": 375,
+      "width": 104,
+      "height": 137
+    },
+    {
+      "id": "shift",
+      "x": 15,
+      "y": 562,
+      "width": 142,
+      "height": 138
+    },
+    {
+      "id": "key-z",
+      "x": 206,
+      "y": 562,
+      "width": 103,
+      "height": 138
+    },
+    {
+      "id": "key-x",
+      "x": 334,
+      "y": 562,
+      "width": 104,
+      "height": 138
+    },
+    {
+      "id": "key-c",
+      "x": 462,
+      "y": 562,
+      "width": 103,
+      "height": 138
+    },
+    {
+      "id": "key-v",
+      "x": 589,
+      "y": 562,
+      "width": 104,
+      "height": 138
+    },
+    {
+      "id": "key-b",
+      "x": 717,
+      "y": 562,
+      "width": 103,
+      "height": 138
+    },
+    {
+      "id": "key-n",
+      "x": 844,
+      "y": 562,
+      "width": 104,
+      "height": 138
+    },
+    {
+      "id": "key-m",
+      "x": 972,
+      "y": 562,
+      "width": 104,
+      "height": 138
+    },
+    {
+      "id": "delete",
+      "x": 1124,
+      "y": 562,
+      "width": 144,
+      "height": 138
+    },
+    {
+      "id": "symbols",
+      "x": 15,
+      "y": 750,
+      "width": 134,
+      "height": 137
+    },
+    {
+      "id": "mode",
+      "x": 175,
+      "y": 750,
+      "width": 134,
+      "height": 137
+    },
+    {
+      "id": "space",
+      "x": 334,
+      "y": 750,
+      "width": 613,
+      "height": 137
+    },
+    {
+      "id": "return",
+      "x": 976,
+      "y": 750,
+      "width": 291,
+      "height": 137
+    }
+  ]
+}
