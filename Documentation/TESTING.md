@@ -48,3 +48,7 @@ The separate `KeyboardSwitchUITests` target adds three Release integration cases
 ## Version 1.0 (22): lean caption construction
 
 42 Release unit cases, three native three-keyboard UI cases (including the new ten-sample short-tap budget), seven focused practice UI cases and ten fixed-build-5 checks passed. Startup checks now enforce Release median <= 11.75 ms and p95 <= 13.85 ms, plus all samples <= 100 ms. The caption regression checks first-use color/font and subsequent cache reuse. [Before/after data, scope and commands](SWITCH-IMPROVEMENT.md).
+
+## Version 1.0 (23): full native handoff profiling
+
+The separate [headless profiler](SWITCH-PROFILE.md) verifies real native English and Chinese output, cancellation, the three-entry picker and native Emoji, and measures retained/fresh-process activation through controller-ready recorded frames. It separates XCTest overhead and cached snapshots from actual controller readiness. The app's 25 shipping source/resource files match build 22. New fixture sources are excluded from shipping targets; temporary instrumented/minimum/delayed copies are restored afterward. The cold 200 ms target remains unmet.

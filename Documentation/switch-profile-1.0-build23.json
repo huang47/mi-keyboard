@@ -1,0 +1,2024 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0",
+  "build": "23",
+  "appPerformanceChangeMerged": false,
+  "appSourceMatchesBuild22": true,
+  "environment": "Dedicated iPhone17Pro / iOS26.5 Simulator; native English (US), Emoji and Mi; Full Access off; no physical-device prerequisite",
+  "final": {
+    "enabledKeyboards": [
+      "en_US@sw=QWERTY;hw=Automatic",
+      "emoji@sw=Emoji",
+      "com.shh.boshiamy.keyboard"
+    ],
+    "minimumControl": false,
+    "injectedExitDelayMs": 0,
+    "budgetMs": {
+      "warm": 200,
+      "coldNonRegression": 450,
+      "coldGoal": 200
+    },
+    "samples": [
+      {
+        "route": "miToEnglish",
+        "touchDown": 555735.904593375,
+        "holdMs": 60.06399996113032,
+        "modeChangedMs": 70.06962492596358,
+        "controllerReadyMs": 90.32762493006885,
+        "firstMatchingFrameMs": 115.7396249473095,
+        "readyFrameMs": 115.7396249473095,
+        "readyFrameIndex": 2547,
+        "touchProcessID": 72774,
+        "readyProcessID": 72632,
+        "keyboard.construct.beginMs": 1657.443624921143,
+        "keyboard.construct.endMs": 1663.3176249451935,
+        "viewDidLoad.beginMs": 1666.8476249324158,
+        "viewDidLoad.endMs": 1667.3526249360293
+      },
+      {
+        "route": "englishToMiWarm",
+        "touchDown": 555737.4424210833,
+        "holdMs": 60.06020831409842,
+        "modeChangedMs": 78.02891661413014,
+        "controllerReadyMs": 147.40191667806357,
+        "firstMatchingFrameMs": 117.91191669180989,
+        "readyFrameMs": 164.57891662139446,
+        "readyFrameIndex": 2675,
+        "touchProcessID": 72632,
+        "readyProcessID": 72774,
+        "keyboard.construct.beginMs": 119.61591662839055,
+        "keyboard.construct.endMs": 125.48991665244102,
+        "viewDidLoad.beginMs": 129.01991663966328,
+        "viewDidLoad.endMs": 129.5249166432768
+      },
+      {
+        "route": "miToEnglish",
+        "touchDown": 555740.8413064167,
+        "holdMs": 60.071000014431775,
+        "modeChangedMs": 67.26758333388716,
+        "controllerReadyMs": 81.50758338160813,
+        "firstMatchingFrameMs": 102.3605833761394,
+        "readyFrameMs": 102.3605833761394,
+        "readyFrameIndex": 2895,
+        "touchProcessID": 72774,
+        "readyProcessID": 72632,
+        "keyboard.construct.beginMs": 1641.4255832787603,
+        "keyboard.construct.endMs": 1646.9005832914263,
+        "viewDidLoad.beginMs": 1650.649583316408,
+        "viewDidLoad.endMs": 1651.1135833570734
+      },
+      {
+        "route": "englishToMiWarm",
+        "touchDown": 555742.37024125,
+        "holdMs": 60.06879161577672,
+        "modeChangedMs": 68.27974994666874,
+        "controllerReadyMs": 147.4527500104159,
+        "firstMatchingFrameMs": 110.09174992796034,
+        "readyFrameMs": 166.75874998327345,
+        "readyFrameIndex": 3021,
+        "touchProcessID": 72632,
+        "readyProcessID": 72774,
+        "keyboard.construct.beginMs": 112.4907499179244,
+        "keyboard.construct.endMs": 117.96574993059039,
+        "viewDidLoad.beginMs": 121.71474995557219,
+        "viewDidLoad.endMs": 122.17874999623746
+      },
+      {
+        "route": "miToEnglish",
+        "touchDown": 555745.7888104167,
+        "holdMs": 60.05941657349467,
+        "modeChangedMs": 68.68258328177035,
+        "controllerReadyMs": 85.331583279185,
+        "firstMatchingFrameMs": 111.52258329093456,
+        "readyFrameMs": 111.52258329093456,
+        "readyFrameIndex": 3244,
+        "touchProcessID": 72774,
+        "readyProcessID": 72632,
+        "keyboard.construct.beginMs": 1587.3105833306909,
+        "keyboard.construct.endMs": 1592.7385833347216,
+        "viewDidLoad.beginMs": 1595.8435833454132,
+        "viewDidLoad.endMs": 1596.2765832664445
+      },
+      {
+        "route": "englishToMiWarm",
+        "touchDown": 555747.26521175,
+        "holdMs": 60.092250001616776,
+        "modeChangedMs": 72.74024991784245,
+        "controllerReadyMs": 137.36024999525398,
+        "firstMatchingFrameMs": 106.788249919191,
+        "readyFrameMs": 156.78824996575713,
+        "readyFrameIndex": 3369,
+        "touchProcessID": 72632,
+        "readyProcessID": 72774,
+        "keyboard.construct.beginMs": 110.90924998279661,
+        "keyboard.construct.endMs": 116.33724998682737,
+        "viewDidLoad.beginMs": 119.44224999751896,
+        "viewDidLoad.endMs": 119.87524991855025
+      },
+      {
+        "route": "miToEnglish",
+        "touchDown": 555750.6147047917,
+        "holdMs": 60.07820833474398,
+        "modeChangedMs": 63.369208364747465,
+        "controllerReadyMs": 72.70520832389593,
+        "firstMatchingFrameMs": 90.62820835970342,
+        "readyFrameMs": 90.62820835970342,
+        "readyFrameIndex": 3585,
+        "touchProcessID": 72774,
+        "readyProcessID": 72632,
+        "keyboard.construct.beginMs": 1652.8562082676217,
+        "keyboard.construct.endMs": 1658.6192082613707,
+        "viewDidLoad.beginMs": 1662.1652082540095,
+        "viewDidLoad.endMs": 1662.6532083610073
+      },
+      {
+        "route": "englishToMiWarm",
+        "touchDown": 555752.1459820833,
+        "holdMs": 60.06283336319029,
+        "modeChangedMs": 75.55191672872752,
+        "controllerReadyMs": 155.0189167028293,
+        "firstMatchingFrameMs": 119.3509167060256,
+        "readyFrameMs": 172.68491676077247,
+        "readyFrameIndex": 3704,
+        "touchProcessID": 72632,
+        "readyProcessID": 72774,
+        "keyboard.construct.beginMs": 121.57891667447984,
+        "keyboard.construct.endMs": 127.3419166682288,
+        "viewDidLoad.beginMs": 130.88791666086763,
+        "viewDidLoad.endMs": 131.37591676786542
+      },
+      {
+        "route": "miToEnglish",
+        "touchDown": 555755.586482125,
+        "holdMs": 60.05354167427868,
+        "modeChangedMs": 70.18687506206334,
+        "controllerReadyMs": 88.14487501513213,
+        "firstMatchingFrameMs": 115.51787506323308,
+        "readyFrameMs": 115.51787506323308,
+        "readyFrameIndex": 3930,
+        "touchProcessID": 72774,
+        "readyProcessID": 72632,
+        "keyboard.construct.beginMs": 1613.4688750607893,
+        "keyboard.construct.endMs": 1619.2498749587685,
+        "viewDidLoad.beginMs": 1622.2948749782518,
+        "viewDidLoad.endMs": 1622.7318750461563
+      },
+      {
+        "route": "englishToMiWarm",
+        "touchDown": 555757.0842705833,
+        "holdMs": 60.08683331310749,
+        "modeChangedMs": 69.97641664929688,
+        "controllerReadyMs": 150.0614166725427,
+        "firstMatchingFrameMs": 112.7294166944921,
+        "readyFrameMs": 169.3964166333899,
+        "readyFrameIndex": 4055,
+        "touchProcessID": 72632,
+        "readyProcessID": 72774,
+        "keyboard.construct.beginMs": 115.68041669670492,
+        "keyboard.construct.endMs": 121.46141659468412,
+        "viewDidLoad.beginMs": 124.50641661416739,
+        "viewDidLoad.endMs": 124.94341668207198
+      },
+      {
+        "route": "miToEnglish",
+        "touchDown": 555760.4294189584,
+        "holdMs": 60.06691663060337,
+        "modeChangedMs": 69.80804167687893,
+        "controllerReadyMs": 90.94704163726419,
+        "firstMatchingFrameMs": 114.24804164562374,
+        "readyFrameMs": 114.24804164562374,
+        "readyFrameIndex": 4273,
+        "touchProcessID": 72774,
+        "readyProcessID": 72632
+      },
+      {
+        "route": "englishToMiCold",
+        "touchDown": 555762.3502932084,
+        "holdMs": 60.064999968744814,
+        "modeChangedMs": 71.67679164558649,
+        "controllerReadyMs": 406.73279156908393,
+        "firstMatchingFrameMs": 115.03979156259447,
+        "readyFrameMs": 420.0397916138172,
+        "readyFrameIndex": 4459,
+        "touchProcessID": 72632,
+        "readyProcessID": 72920,
+        "process.constructorMs": 271.61379158496857,
+        "keyboard.construct.beginMs": 306.2527916627005,
+        "keyboard.construct.endMs": 321.8717916170135,
+        "viewDidLoad.beginMs": 360.17879156861454,
+        "viewDidLoad.endMs": 364.7177916718647,
+        "oldPID": 72774,
+        "newPID": 72920
+      },
+      {
+        "route": "miToEnglish",
+        "touchDown": 555765.7426445833,
+        "holdMs": 60.05199998617172,
+        "modeChangedMs": 67.39641667809337,
+        "controllerReadyMs": 81.83141669724137,
+        "firstMatchingFrameMs": 99.35541660524905,
+        "readyFrameMs": 99.35541660524905,
+        "readyFrameIndex": 4663,
+        "touchProcessID": 72920,
+        "readyProcessID": 72632
+      },
+      {
+        "route": "englishToMiCold",
+        "touchDown": 555767.65514125,
+        "holdMs": 60.080750030465424,
+        "modeChangedMs": 66.59275002311915,
+        "controllerReadyMs": 395.7917500520125,
+        "firstMatchingFrameMs": 105.19174998626113,
+        "readyFrameMs": 416.85875004623085,
+        "readyFrameIndex": 4851,
+        "touchProcessID": 72632,
+        "readyProcessID": 72950,
+        "process.constructorMs": 260.9957499662414,
+        "keyboard.construct.beginMs": 295.9447499597445,
+        "keyboard.construct.endMs": 311.88875006046146,
+        "viewDidLoad.beginMs": 349.9467499786988,
+        "viewDidLoad.endMs": 354.48075004387647,
+        "oldPID": 72920,
+        "newPID": 72950
+      },
+      {
+        "route": "miToEnglish",
+        "touchDown": 555771.0552485833,
+        "holdMs": 60.06004172377288,
+        "modeChangedMs": 66.13241671584547,
+        "controllerReadyMs": 80.15641663223505,
+        "firstMatchingFrameMs": 103.41841669287533,
+        "readyFrameMs": 103.41841669287533,
+        "readyFrameIndex": 5054,
+        "touchProcessID": 72950,
+        "readyProcessID": 72632
+      },
+      {
+        "route": "englishToMiCold",
+        "touchDown": 555772.978631625,
+        "holdMs": 60.05850003566593,
+        "modeChangedMs": 76.525375014171,
+        "controllerReadyMs": 412.0973750250414,
+        "firstMatchingFrameMs": 121.70137499924749,
+        "readyFrameMs": 428.3683750545606,
+        "readyFrameIndex": 5235,
+        "touchProcessID": 72632,
+        "readyProcessID": 72977,
+        "process.constructorMs": 275.84637503605336,
+        "keyboard.construct.beginMs": 310.699374997057,
+        "keyboard.construct.endMs": 326.415374991484,
+        "viewDidLoad.beginMs": 364.8163750767708,
+        "viewDidLoad.endMs": 369.3763749906793,
+        "oldPID": 72950,
+        "newPID": 72977
+      },
+      {
+        "route": "miToEnglish",
+        "touchDown": 555776.3660345,
+        "holdMs": 60.093750013038516,
+        "modeChangedMs": 71.06550002936274,
+        "controllerReadyMs": 91.92750009242445,
+        "firstMatchingFrameMs": 117.63250001240522,
+        "readyFrameMs": 117.63250001240522,
+        "readyFrameIndex": 5439,
+        "touchProcessID": 72977,
+        "readyProcessID": 72632
+      },
+      {
+        "route": "englishToMiCold",
+        "touchDown": 555778.2916700833,
+        "holdMs": 60.07524998858571,
+        "modeChangedMs": 79.3499166611582,
+        "controllerReadyMs": 409.32091674767435,
+        "firstMatchingFrameMs": 121.99691671412438,
+        "readyFrameMs": 428.6629166454077,
+        "readyFrameIndex": 5623,
+        "touchProcessID": 72632,
+        "readyProcessID": 73004,
+        "process.constructorMs": 274.3099166546017,
+        "keyboard.construct.beginMs": 308.625916717574,
+        "keyboard.construct.endMs": 324.4149166857824,
+        "viewDidLoad.beginMs": 362.9719166783616,
+        "viewDidLoad.endMs": 367.58091673254967,
+        "oldPID": 72977,
+        "newPID": 73004
+      },
+      {
+        "route": "miToEnglish",
+        "touchDown": 555781.6414147083,
+        "holdMs": 60.06691663060337,
+        "modeChangedMs": 67.06229166593403,
+        "controllerReadyMs": 81.14129165187478,
+        "firstMatchingFrameMs": 98.91829162370414,
+        "readyFrameMs": 98.91829162370414,
+        "readyFrameIndex": 5819,
+        "touchProcessID": 73004,
+        "readyProcessID": 72632
+      },
+      {
+        "route": "englishToMiCold",
+        "touchDown": 555783.5642602916,
+        "holdMs": 60.06054172758013,
+        "modeChangedMs": 74.19070834293962,
+        "controllerReadyMs": 405.1107083214447,
+        "firstMatchingFrameMs": 117.73970839567482,
+        "readyFrameMs": 422.73970833048224,
+        "readyFrameIndex": 6004,
+        "touchProcessID": 72632,
+        "readyProcessID": 73035,
+        "process.constructorMs": 272.47470838483423,
+        "keyboard.construct.beginMs": 306.9827083963901,
+        "keyboard.construct.endMs": 322.5537083344534,
+        "viewDidLoad.beginMs": 360.71070830803365,
+        "viewDidLoad.endMs": 365.2597083710134,
+        "oldPID": 73004,
+        "newPID": 73035
+      }
+    ],
+    "groups": {
+      "miToEnglish": {
+        "count": 10,
+        "medianMs": 107.47049999190494,
+        "p95Ms": 117.63250001240522
+      },
+      "englishToMiWarm": {
+        "count": 5,
+        "medianMs": 166.75874998327345,
+        "p95Ms": 172.68491676077247
+      },
+      "englishToMiCold": {
+        "count": 5,
+        "medianMs": 422.73970833048224,
+        "p95Ms": 428.6629166454077
+      }
+    },
+    "alignmentOffsetQuantiles": [
+      555695.388667,
+      555695.3899999999,
+      555695.390333,
+      555695.392,
+      555695.392333
+    ],
+    "scope": "Direct Simulator HID, including finger hold, process launch, controller-ready notification and stable destination pixels. Cached snapshots do not count as ready. +/- one display frame; not physical display latency.",
+    "passed": true,
+    "cold200msGoalMet": false,
+    "nativeEnglishOutputVerified": true,
+    "chineseOutputAndCompositionCancellationVerified": true,
+    "threeRealPickerEntriesVerified": true,
+    "unmodifiedAppRestored": true,
+    "restoredExtensionSHA256": "c18e88c6786dbcff67bfdc6157a5da94191c2a14b0e996f7caa642dfd8434f96",
+    "harnessScriptSHA256": "6a5eee97c9c99117549f7e8aa30d15ffd22a7a0cee26622b27cc871641912f1d",
+    "fixtureSHA256": {
+      "SimulatorHID.m": "4ee267a766811a8ffd2c0e9e5d62a260e00e9c76ce46a768dcedcc61ff1bc046",
+      "ProfileEvents.swift": "ee76363623c7147da22b33413f82e98941ffb63784dfa311842547b2d396f639",
+      "Recognize.swift": "1252ce13c8f327bd8718439cf937bdab3d3d623d2a0ef356efe40c64d5565c59",
+      "ProcessStart.m": "4ca11d53700e1b6e6eb9a2783ad953cad76b16859aa38f76c04a8b30befdb102",
+      "MinimumController.swift": "9cd4af28102efd4c1f65f758bcc8bc0b76743257829524b5aacea1033b928889",
+      "Host.swift": "18695b3a332f826c413361e05791959838e337164ed314cf13da62b9d42b00a7"
+    }
+  },
+  "shippingSourceSHA256": {
+    "App/UITestFixtures.swift": "170e0f56b33d00c8e4af771ca369469e7990a8f187e0392564507f436be251a4",
+    "App/PracticeView.swift": "c16966eb8716059da8ee2fae593af685fd19e732dbb6297980d24e48fd13bb2a",
+    "App/BoshiamyApp.swift": "73e2e32313faa2dbabc70033535215eedb03d82f2def3151f3d7bf975372a5c2",
+    "App/Info.plist": "2f86bbdcf9ff3d14165393f137c12402f09891fd105e28aef24bd5585cfe8954",
+    "App/PrivacyPolicyView.swift": "b7734df0d3972b05912bd9e1864c04cf49b9d1e5de8b4cf7f84c71eaeeba03cb",
+    "App/Assets.xcassets/AppIcon.appiconset/Contents.json": "96a50e606d8ee91b2191159d58103a3855c356fdf2aaf7ed1fcec0451933e9dc",
+    "App/Assets.xcassets/AppIcon.appiconset/AppIcon.png": "8cb400eec79f231fe99f01005eeaf9a2e4f9afa403c9f41e0e8af8e33eff4a11",
+    "Keyboard/KeyboardViewController.swift": "7488e7bc830f878e8d3d1fd014efabfe313073aa437cd547f453b21a33551f54",
+    "Keyboard/Info.plist": "b546887d9fe29a63fc875163020aad33a9c1acbe29ee954a4df8160fa3c55a9e",
+    "KeyboardUI/KeyPreview.swift": "dc71f2c52ec9675817aa19a292253359fcf060f81ac7134117c829a19e6152de",
+    "KeyboardUI/NativeKeyboardGeometry.swift": "584c58d85afc76a05fba05ef8a5c2bf4eb96fe6690ffe7363f3c0e020351707b",
+    "KeyboardUI/KeyboardRow.swift": "aece6bed6544816f99663881dcf10c94bc87e17d7ed8c7a8491a278ccb072ceb",
+    "KeyboardUI/NativeKeyboardTypography.swift": "f2e5d74b92897b121b53c8bbb662d9fbf151b5451fd10b5ff272450890116e1e",
+    "KeyboardUI/KeyboardView.swift": "8ec0276924f298d39290b749f4b81fb07c8c1e5d6a757cbf844239af4ca4dcfb",
+    "KeyboardUI/KeyboardButton.swift": "6634aed9de188b615c0d665de993013a75523e4ff8db1cc87225fa9e9f799965",
+    "KeyboardUI/CandidateList.swift": "fe93a802968a15c1cd55d371b5f230b420957be74b72a8119454393be51317a6",
+    "Shared/CodeTable.swift": "0c9498417d17858ee9d63aa1da37ddb50ad2b1c924a3ea7cec84260641e8047c",
+    "Shared/PackedCodeTable.swift": "8360218362c31e914e26686d9bfc59103058c1bd99b28981c48ea18c4e960246",
+    "Shared/TableStore.swift": "a6d7a88301f49cf91e7c7da52fe24eda7e256b666636941a38bae754088d9c0f",
+    "Shared/CompositionEngine.swift": "02abf690fecb861955abf183ba348a6e381294a21bd4d9db28f7155d0c85a2d7",
+    "Shared/HomophoneTable.swift": "015a968b23456f0dcc2a03eb2f35ffd6d269fccbe5b9b88f5530880563dcfa45",
+    "Resources/homophones.json": "806f135062e6fe8f8a985b73e26741798bd1eaec6406c5ed91dbf19eef98bab2",
+    "Resources/Unicode-LICENSE.txt": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+    "Resources/boshiamy.bin": "ffba913d5f0c86526d247a7b4394d595b1e66bb05a4cd8d47ef75f0118ce1b06",
+    "Resources/boshiamy.json": "8d7cc15a87f4a6ad42e81a29906aab12b6633c1ed0e7cdc0812bcc7e61f7d38b"
+  },
+  "experiments": {
+    "originalStandalone": {
+      "capture": "native-hid1",
+      "scope": "Direct Simulator HID; no XCTest process, automation/accessibility settings unchanged; full touch-down to matching recorded destination frame, includes hold and launch; +/- one display frame, not physical display latency",
+      "frameClockAlignment": {
+        "offset": 553650.2946670001,
+        "offsetQuantiles": [
+          553650.2883329999,
+          553650.292,
+          553650.293333,
+          553650.2946670001,
+          553650.295333
+        ]
+      },
+      "rows": [
+        {
+          "route": "miToEnglish",
+          "touchDown": 553651.0750275,
+          "touchUp": 553651.135111375,
+          "holdMs": 60.083874966949224,
+          "modeChangedMs": 67.75049993302673,
+          "firstMatchingFrameMs": 109.63950003497303,
+          "settledFrameMs": 109.63950003497303,
+          "controllerReadyMs": 92.21849997993559,
+          "readyFrameMs": 109.63950003497303,
+          "lastNonmatchingFrameMs": 92.97250001691282,
+          "frameIndex": 59,
+          "settledFrameIndex": 59,
+          "keyboard.construct.beginMs": 887.06649991218,
+          "keyboard.construct.endMs": 892.2694999491796,
+          "viewDidLoad.beginMs": 895.1654999982566,
+          "viewDidLoad.endMs": 895.6255000084639,
+          "dictionary.load.beginMs": 895.4614999238402,
+          "dictionary.load.endMs": 895.6164999399334,
+          "viewWillAppear.beginMs": 906.5424998989329,
+          "viewDidAppearMs": 911.3584998995066
+        },
+        {
+          "route": "englishToMiWarm",
+          "touchDown": 553651.8616270834,
+          "touchUp": 553651.9172246667,
+          "holdMs": 55.597583297640085,
+          "modeChangedMs": 73.3679166296497,
+          "firstMatchingFrameMs": 96.37291671242565,
+          "settledFrameMs": 141.37291663791984,
+          "controllerReadyMs": 124.7589165577665,
+          "readyFrameMs": 141.37291663791984,
+          "lastNonmatchingFrameMs": 91.37291670776904,
+          "frameIndex": 114,
+          "settledFrameIndex": 120,
+          "keyboard.construct.beginMs": 100.46691657043993,
+          "keyboard.construct.endMs": 105.66991660743952,
+          "viewDidLoad.beginMs": 108.56591665651649,
+          "viewDidLoad.endMs": 109.02591666672379,
+          "dictionary.load.beginMs": 108.8619165821001,
+          "dictionary.load.endMs": 109.01691659819335,
+          "viewWillAppear.beginMs": 119.9429165571928,
+          "viewDidAppearMs": 124.7589165577665
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 553653.2550127917,
+          "touchUp": 553653.3150964166,
+          "holdMs": 60.08362490683794,
+          "modeChangedMs": 68.57920822221786,
+          "firstMatchingFrameMs": 111.32120830006897,
+          "settledFrameMs": 111.32120830006897,
+          "controllerReadyMs": 86.51520824059844,
+          "readyFrameMs": 111.32120830006897,
+          "lastNonmatchingFrameMs": 97.98720839899033,
+          "frameIndex": 211,
+          "settledFrameIndex": 211,
+          "keyboard.construct.beginMs": 885.9072083141655,
+          "keyboard.construct.endMs": 890.7302082516253,
+          "viewDidLoad.beginMs": 893.4092082781717,
+          "viewDidLoad.endMs": 893.8242082949728,
+          "dictionary.load.beginMs": 893.674208316952,
+          "dictionary.load.endMs": 893.8172082416713,
+          "viewWillAppear.beginMs": 907.3152082273737,
+          "viewDidAppearMs": 912.6372082391754
+        },
+        {
+          "route": "englishToMiWarm",
+          "touchDown": 553654.0266901667,
+          "touchUp": 553654.0867679167,
+          "holdMs": 60.077750007621944,
+          "modeChangedMs": 77.39383331499994,
+          "firstMatchingFrameMs": 111.30983335897326,
+          "settledFrameMs": 159.64383340906352,
+          "controllerReadyMs": 140.95983328297734,
+          "readyFrameMs": 159.64383340906352,
+          "lastNonmatchingFrameMs": 99.64383335318416,
+          "frameIndex": 286,
+          "settledFrameIndex": 293,
+          "keyboard.construct.beginMs": 114.22983335796744,
+          "keyboard.construct.endMs": 119.05283329542726,
+          "viewDidLoad.beginMs": 121.73183332197368,
+          "viewDidLoad.endMs": 122.14683333877474,
+          "dictionary.load.beginMs": 121.99683336075395,
+          "dictionary.load.endMs": 122.13983328547329,
+          "viewWillAppear.beginMs": 135.63783327117562,
+          "viewDidAppearMs": 140.95983328297734
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 553655.4237129167,
+          "touchUp": 553655.4837715416,
+          "holdMs": 60.05862494930625,
+          "modeChangedMs": 67.7410833304748,
+          "firstMatchingFrameMs": 109.28708338178694,
+          "settledFrameMs": 109.28708338178694,
+          "controllerReadyMs": 86.12408337648958,
+          "readyFrameMs": 109.28708338178694,
+          "lastNonmatchingFrameMs": 97.62108337599784,
+          "frameIndex": 379,
+          "settledFrameIndex": 379,
+          "keyboard.construct.beginMs": 924.5100832777098,
+          "keyboard.construct.endMs": 930.7130833622068,
+          "viewDidLoad.beginMs": 934.2210832983255,
+          "viewDidLoad.endMs": 934.7280833171681,
+          "dictionary.load.beginMs": 934.5430833054706,
+          "dictionary.load.endMs": 934.7180833574384,
+          "viewWillAppear.beginMs": 947.8200833545998,
+          "viewDidAppearMs": 960.6160833500326
+        },
+        {
+          "route": "englishToMiWarm",
+          "touchDown": 553656.22753525,
+          "touchUp": 553656.2875987083,
+          "holdMs": 60.06345828063786,
+          "modeChangedMs": 76.49274996947497,
+          "firstMatchingFrameMs": 115.46475009527057,
+          "settledFrameMs": 175.4647500347346,
+          "controllerReadyMs": 156.79375000763685,
+          "readyFrameMs": 175.4647500347346,
+          "lastNonmatchingFrameMs": 107.13175009004772,
+          "frameIndex": 453,
+          "settledFrameIndex": 460,
+          "keyboard.construct.beginMs": 120.68774993531406,
+          "keyboard.construct.endMs": 126.8907500198111,
+          "viewDidLoad.beginMs": 130.39874995592982,
+          "viewDidLoad.endMs": 130.90574997477233,
+          "dictionary.load.beginMs": 130.72074996307492,
+          "dictionary.load.endMs": 130.89575001504272,
+          "viewWillAppear.beginMs": 143.99775001220405,
+          "viewDidAppearMs": 156.79375000763685
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 553657.6003774167,
+          "touchUp": 553657.6604454167,
+          "holdMs": 60.067999991588295,
+          "modeChangedMs": 66.86558329965919,
+          "firstMatchingFrameMs": 100.95658339560032,
+          "settledFrameMs": 100.95658339560032,
+          "controllerReadyMs": 79.6475833049044,
+          "readyFrameMs": 100.95658339560032,
+          "lastNonmatchingFrameMs": 87.62258337810636,
+          "frameIndex": 544,
+          "settledFrameIndex": 544,
+          "process.constructorMs": 1378.3925833413377
+        },
+        {
+          "route": "englishToMiCold",
+          "touchDown": 553658.7122186667,
+          "touchUp": 553658.7722948333,
+          "holdMs": 60.076166642829776,
+          "modeChangedMs": 75.51533333025873,
+          "firstMatchingFrameMs": 112.44833341334015,
+          "settledFrameMs": 424.11533335689455,
+          "controllerReadyMs": 405.44833336025476,
+          "readyFrameMs": 424.11533335689455,
+          "lastNonmatchingFrameMs": 57.44833336211741,
+          "frameIndex": 652,
+          "settledFrameIndex": 689,
+          "process.constructorMs": 266.55133336316794,
+          "keyboard.construct.beginMs": 301.0713333496824,
+          "keyboard.construct.endMs": 316.92133331671357,
+          "viewDidLoad.beginMs": 356.10533331055194,
+          "viewDidLoad.endMs": 361.1373333260417,
+          "dictionary.load.beginMs": 356.5313332946971,
+          "dictionary.load.endMs": 361.1253333510831,
+          "viewWillAppear.beginMs": 396.1453333031386,
+          "viewDidAppearMs": 405.44833336025476
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 553660.1081555417,
+          "touchUp": 553660.1682142917,
+          "holdMs": 60.05874997936189,
+          "modeChangedMs": 68.11745825689286,
+          "firstMatchingFrameMs": 111.51145840995014,
+          "settledFrameMs": 111.51145840995014,
+          "controllerReadyMs": 86.57045825384557,
+          "readyFrameMs": 111.51145840995014,
+          "lastNonmatchingFrameMs": 96.5114583959803,
+          "frameIndex": 757,
+          "settledFrameIndex": 757
+        },
+        {
+          "route": "englishToMiCold",
+          "touchDown": 553661.267800875,
+          "touchUp": 553661.3278674167,
+          "holdMs": 60.06654165685177,
+          "modeChangedMs": 70.77912497334182,
+          "firstMatchingFrameMs": 113.53312502615154,
+          "settledFrameMs": 418.5331250773743,
+          "controllerReadyMs": 399.842125014402,
+          "readyFrameMs": 418.5331250773743,
+          "lastNonmatchingFrameMs": 50.19912507850677,
+          "frameIndex": 831,
+          "settledFrameIndex": 867,
+          "process.constructorMs": 264.9941249983385,
+          "keyboard.construct.beginMs": 299.6081250021234,
+          "keyboard.construct.endMs": 315.21612498909235,
+          "viewDidLoad.beginMs": 353.4111250191927,
+          "viewDidLoad.endMs": 357.9621249809861,
+          "dictionary.load.beginMs": 353.78512495663017,
+          "dictionary.load.endMs": 357.953125028871,
+          "viewWillAppear.beginMs": 392.9211249342188,
+          "viewDidAppearMs": 399.842125014402
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 553662.671665625,
+          "touchUp": 553662.7317211666,
+          "holdMs": 60.05554168950766,
+          "modeChangedMs": 67.76937504764646,
+          "firstMatchingFrameMs": 108.001375105232,
+          "settledFrameMs": 108.001375105232,
+          "controllerReadyMs": 83.93237506970763,
+          "readyFrameMs": 108.001375105232,
+          "lastNonmatchingFrameMs": 96.3343750918284,
+          "frameIndex": 937,
+          "settledFrameIndex": 937
+        },
+        {
+          "route": "englishToMiCold",
+          "touchDown": 553663.8132330833,
+          "touchUp": 553663.87332075,
+          "holdMs": 60.08766661398113,
+          "modeChangedMs": 73.97391670383513,
+          "firstMatchingFrameMs": 104.76691671647131,
+          "settledFrameMs": 104.76691671647131,
+          "controllerReadyMs": 396.07591670937836,
+          "readyFrameMs": 409.76691676769406,
+          "lastNonmatchingFrameMs": 58.10091667808592,
+          "frameIndex": 1048,
+          "settledFrameIndex": 1048,
+          "process.constructorMs": 254.15791664272547,
+          "keyboard.construct.beginMs": 290.44891661033034,
+          "keyboard.construct.endMs": 306.6049166955054,
+          "viewDidLoad.beginMs": 346.45991667639464,
+          "viewDidLoad.endMs": 351.188916596584,
+          "dictionary.load.beginMs": 346.83191659860313,
+          "dictionary.load.endMs": 351.1779166292399,
+          "viewWillAppear.beginMs": 389.3189165974036,
+          "viewDidAppearMs": 396.07591670937836
+        },
+        {
+          "route": "finalMiToEnglish",
+          "touchDown": 553665.2062398334,
+          "touchUp": 553665.2663027917,
+          "holdMs": 60.062958276830614,
+          "modeChangedMs": 70.049166562967,
+          "firstMatchingFrameMs": 115.09416671469808,
+          "settledFrameMs": 115.09416671469808,
+          "controllerReadyMs": 88.99916661903262,
+          "readyFrameMs": 115.09416671469808,
+          "lastNonmatchingFrameMs": 106.76016670186073,
+          "frameIndex": 1155,
+          "settledFrameIndex": 1155
+        }
+      ],
+      "groups": {
+        "englishToMiCold": {
+          "count": 3,
+          "metrics": {
+            "holdMs": {
+              "median": 60.076166642829776,
+              "p95": 60.08766661398113,
+              "max": 60.08766661398113
+            },
+            "modeChangedMs": {
+              "median": 73.97391670383513,
+              "p95": 75.51533333025873,
+              "max": 75.51533333025873
+            },
+            "firstMatchingFrameMs": {
+              "median": 112.44833341334015,
+              "p95": 113.53312502615154,
+              "max": 113.53312502615154
+            },
+            "settledFrameMs": {
+              "median": 418.5331250773743,
+              "p95": 424.11533335689455,
+              "max": 424.11533335689455
+            },
+            "controllerReadyMs": {
+              "median": 399.842125014402,
+              "p95": 405.44833336025476,
+              "max": 405.44833336025476
+            },
+            "readyFrameMs": {
+              "median": 418.5331250773743,
+              "p95": 424.11533335689455,
+              "max": 424.11533335689455
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 57.44833336211741,
+              "p95": 58.10091667808592,
+              "max": 58.10091667808592
+            },
+            "process.constructorMs": {
+              "median": 264.9941249983385,
+              "p95": 266.55133336316794,
+              "max": 266.55133336316794
+            },
+            "keyboard.construct.beginMs": {
+              "median": 299.6081250021234,
+              "p95": 301.0713333496824,
+              "max": 301.0713333496824
+            },
+            "keyboard.construct.endMs": {
+              "median": 315.21612498909235,
+              "p95": 316.92133331671357,
+              "max": 316.92133331671357
+            },
+            "viewDidLoad.beginMs": {
+              "median": 353.4111250191927,
+              "p95": 356.10533331055194,
+              "max": 356.10533331055194
+            },
+            "viewDidLoad.endMs": {
+              "median": 357.9621249809861,
+              "p95": 361.1373333260417,
+              "max": 361.1373333260417
+            },
+            "dictionary.load.beginMs": {
+              "median": 353.78512495663017,
+              "p95": 356.5313332946971,
+              "max": 356.5313332946971
+            },
+            "dictionary.load.endMs": {
+              "median": 357.953125028871,
+              "p95": 361.1253333510831,
+              "max": 361.1253333510831
+            },
+            "viewWillAppear.beginMs": {
+              "median": 392.9211249342188,
+              "p95": 396.1453333031386,
+              "max": 396.1453333031386
+            },
+            "viewDidAppearMs": {
+              "median": 399.842125014402,
+              "p95": 405.44833336025476,
+              "max": 405.44833336025476
+            }
+          }
+        },
+        "miToEnglish": {
+          "count": 6,
+          "metrics": {
+            "holdMs": {
+              "median": 60.06337498547509,
+              "p95": 60.083874966949224,
+              "max": 60.083874966949224
+            },
+            "modeChangedMs": {
+              "median": 67.7599374903366,
+              "p95": 68.57920822221786,
+              "max": 68.57920822221786
+            },
+            "firstMatchingFrameMs": {
+              "median": 109.46329170837998,
+              "p95": 111.51145840995014,
+              "max": 111.51145840995014
+            },
+            "settledFrameMs": {
+              "median": 109.46329170837998,
+              "p95": 111.51145840995014,
+              "max": 111.51145840995014
+            },
+            "controllerReadyMs": {
+              "median": 86.31964580854401,
+              "p95": 92.21849997993559,
+              "max": 92.21849997993559
+            },
+            "readyFrameMs": {
+              "median": 109.46329170837998,
+              "p95": 111.51145840995014,
+              "max": 111.51145840995014
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 96.42291674390435,
+              "p95": 97.98720839899033,
+              "max": 97.98720839899033
+            },
+            "keyboard.construct.beginMs": {
+              "median": 887.06649991218,
+              "p95": 924.5100832777098,
+              "max": 924.5100832777098
+            },
+            "keyboard.construct.endMs": {
+              "median": 892.2694999491796,
+              "p95": 930.7130833622068,
+              "max": 930.7130833622068
+            },
+            "viewDidLoad.beginMs": {
+              "median": 895.1654999982566,
+              "p95": 934.2210832983255,
+              "max": 934.2210832983255
+            },
+            "viewDidLoad.endMs": {
+              "median": 895.6255000084639,
+              "p95": 934.7280833171681,
+              "max": 934.7280833171681
+            },
+            "dictionary.load.beginMs": {
+              "median": 895.4614999238402,
+              "p95": 934.5430833054706,
+              "max": 934.5430833054706
+            },
+            "dictionary.load.endMs": {
+              "median": 895.6164999399334,
+              "p95": 934.7180833574384,
+              "max": 934.7180833574384
+            },
+            "viewWillAppear.beginMs": {
+              "median": 907.3152082273737,
+              "p95": 947.8200833545998,
+              "max": 947.8200833545998
+            },
+            "viewDidAppearMs": {
+              "median": 912.6372082391754,
+              "p95": 960.6160833500326,
+              "max": 960.6160833500326
+            }
+          }
+        },
+        "englishToMiWarm": {
+          "count": 3,
+          "metrics": {
+            "holdMs": {
+              "median": 60.06345828063786,
+              "p95": 60.077750007621944,
+              "max": 60.077750007621944
+            },
+            "modeChangedMs": {
+              "median": 76.49274996947497,
+              "p95": 77.39383331499994,
+              "max": 77.39383331499994
+            },
+            "firstMatchingFrameMs": {
+              "median": 111.30983335897326,
+              "p95": 115.46475009527057,
+              "max": 115.46475009527057
+            },
+            "settledFrameMs": {
+              "median": 159.64383340906352,
+              "p95": 175.4647500347346,
+              "max": 175.4647500347346
+            },
+            "controllerReadyMs": {
+              "median": 140.95983328297734,
+              "p95": 156.79375000763685,
+              "max": 156.79375000763685
+            },
+            "readyFrameMs": {
+              "median": 159.64383340906352,
+              "p95": 175.4647500347346,
+              "max": 175.4647500347346
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 99.64383335318416,
+              "p95": 107.13175009004772,
+              "max": 107.13175009004772
+            },
+            "keyboard.construct.beginMs": {
+              "median": 114.22983335796744,
+              "p95": 120.68774993531406,
+              "max": 120.68774993531406
+            },
+            "keyboard.construct.endMs": {
+              "median": 119.05283329542726,
+              "p95": 126.8907500198111,
+              "max": 126.8907500198111
+            },
+            "viewDidLoad.beginMs": {
+              "median": 121.73183332197368,
+              "p95": 130.39874995592982,
+              "max": 130.39874995592982
+            },
+            "viewDidLoad.endMs": {
+              "median": 122.14683333877474,
+              "p95": 130.90574997477233,
+              "max": 130.90574997477233
+            },
+            "dictionary.load.beginMs": {
+              "median": 121.99683336075395,
+              "p95": 130.72074996307492,
+              "max": 130.72074996307492
+            },
+            "dictionary.load.endMs": {
+              "median": 122.13983328547329,
+              "p95": 130.89575001504272,
+              "max": 130.89575001504272
+            },
+            "viewWillAppear.beginMs": {
+              "median": 135.63783327117562,
+              "p95": 143.99775001220405,
+              "max": 143.99775001220405
+            },
+            "viewDidAppearMs": {
+              "median": 140.95983328297734,
+              "p95": 156.79375000763685,
+              "max": 156.79375000763685
+            }
+          }
+        },
+        "finalMiToEnglish": {
+          "count": 1,
+          "metrics": {
+            "holdMs": {
+              "median": 60.062958276830614,
+              "p95": 60.062958276830614,
+              "max": 60.062958276830614
+            },
+            "modeChangedMs": {
+              "median": 70.049166562967,
+              "p95": 70.049166562967,
+              "max": 70.049166562967
+            },
+            "firstMatchingFrameMs": {
+              "median": 115.09416671469808,
+              "p95": 115.09416671469808,
+              "max": 115.09416671469808
+            },
+            "settledFrameMs": {
+              "median": 115.09416671469808,
+              "p95": 115.09416671469808,
+              "max": 115.09416671469808
+            },
+            "controllerReadyMs": {
+              "median": 88.99916661903262,
+              "p95": 88.99916661903262,
+              "max": 88.99916661903262
+            },
+            "readyFrameMs": {
+              "median": 115.09416671469808,
+              "p95": 115.09416671469808,
+              "max": 115.09416671469808
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 106.76016670186073,
+              "p95": 106.76016670186073,
+              "max": 106.76016670186073
+            }
+          }
+        }
+      }
+    },
+    "deferredViewConstruction": {
+      "capture": "native-lazy2",
+      "scope": "Direct Simulator HID; no XCTest process, automation/accessibility settings unchanged; full touch-down to matching recorded destination frame, includes hold and launch; +/- one display frame, not physical display latency",
+      "frameClockAlignment": {
+        "offset": 554140.751667,
+        "offsetQuantiles": [
+          554140.746667,
+          554140.748667,
+          554140.750333,
+          554140.751667,
+          554140.752667
+        ]
+      },
+      "rows": [
+        {
+          "route": "miToEnglish",
+          "touchDown": 554141.5940192917,
+          "touchUp": 554141.6540834584,
+          "holdMs": 60.06416666787118,
+          "modeChangedMs": 74.05370834749192,
+          "firstMatchingFrameMs": 127.64770828653127,
+          "settledFrameMs": 127.64770828653127,
+          "controllerReadyMs": 92.3367083305493,
+          "readyFrameMs": 127.64770828653127,
+          "lastNonmatchingFrameMs": 120.98070827778429,
+          "frameIndex": 63,
+          "settledFrameIndex": 63,
+          "keyboard.construct.beginMs": 909.3257082859054,
+          "keyboard.construct.endMs": 914.8227083496749,
+          "viewDidLoad.beginMs": 909.3107082881033,
+          "viewDidLoad.endMs": 915.2687082532793,
+          "dictionary.load.beginMs": 915.1407083263621,
+          "dictionary.load.endMs": 915.2587082935497,
+          "viewWillAppear.beginMs": 928.0337083619088,
+          "viewDidAppearMs": 940.3147082775831
+        },
+        {
+          "route": "englishToMiWarm",
+          "touchDown": 554142.3891839583,
+          "touchUp": 554142.4492594583,
+          "holdMs": 60.075500048696995,
+          "modeChangedMs": 65.3560416540131,
+          "firstMatchingFrameMs": 104.15004170499742,
+          "settledFrameMs": 164.15004176087677,
+          "controllerReadyMs": 145.15004167333245,
+          "readyFrameMs": 164.15004176087677,
+          "lastNonmatchingFrameMs": 92.48304169159383,
+          "frameIndex": 133,
+          "settledFrameIndex": 139,
+          "keyboard.construct.beginMs": 114.16104168165475,
+          "keyboard.construct.endMs": 119.65804174542427,
+          "viewDidLoad.beginMs": 114.14604168385267,
+          "viewDidLoad.endMs": 120.10404164902866,
+          "dictionary.load.beginMs": 119.9760417221114,
+          "dictionary.load.endMs": 120.09404168929905,
+          "viewWillAppear.beginMs": 132.86904175765812,
+          "viewDidAppearMs": 145.15004167333245
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 554143.779817125,
+          "touchUp": 554143.8398732917,
+          "holdMs": 60.05616672337055,
+          "modeChangedMs": 67.76187510695308,
+          "firstMatchingFrameMs": 111.84987507294863,
+          "settledFrameMs": 111.84987507294863,
+          "controllerReadyMs": 87.27187500335276,
+          "readyFrameMs": 111.84987507294863,
+          "lastNonmatchingFrameMs": 101.84987506363541,
+          "frameIndex": 228,
+          "settledFrameIndex": 228,
+          "keyboard.construct.beginMs": 880.6668750476092,
+          "keyboard.construct.endMs": 885.1518750889227,
+          "viewDidLoad.beginMs": 880.6548750726506,
+          "viewDidLoad.endMs": 885.5008750688285,
+          "dictionary.load.beginMs": 885.4038750287145,
+          "dictionary.load.endMs": 885.491875000298,
+          "viewWillAppear.beginMs": 897.4858750589192,
+          "viewDidAppearMs": 904.4598750770092
+        },
+        {
+          "route": "englishToMiWarm",
+          "touchDown": 554144.5483222917,
+          "touchUp": 554144.608384625,
+          "holdMs": 60.06233335938305,
+          "modeChangedMs": 72.22270825877786,
+          "firstMatchingFrameMs": 106.67770833242685,
+          "settledFrameMs": 156.67770826257765,
+          "controllerReadyMs": 135.95470832660794,
+          "readyFrameMs": 156.67770826257765,
+          "lastNonmatchingFrameMs": 88.34470831789076,
+          "frameIndex": 296,
+          "settledFrameIndex": 301,
+          "keyboard.construct.beginMs": 112.16170829720795,
+          "keyboard.construct.endMs": 116.64670833852142,
+          "viewDidLoad.beginMs": 112.14970832224935,
+          "viewDidLoad.endMs": 116.9957083184272,
+          "dictionary.load.beginMs": 116.89870827831328,
+          "dictionary.load.endMs": 116.98670824989676,
+          "viewWillAppear.beginMs": 128.98070830851793,
+          "viewDidAppearMs": 135.95470832660794
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 554145.9125845417,
+          "touchUp": 554145.9726584167,
+          "holdMs": 60.07387500721961,
+          "modeChangedMs": 66.94445828907192,
+          "firstMatchingFrameMs": 99.08245829865336,
+          "settledFrameMs": 99.08245829865336,
+          "controllerReadyMs": 79.41345823928714,
+          "readyFrameMs": 99.08245829865336,
+          "lastNonmatchingFrameMs": 89.08245828934014,
+          "frameIndex": 389,
+          "settledFrameIndex": 389,
+          "keyboard.construct.beginMs": 922.8224583202973,
+          "keyboard.construct.endMs": 928.0814583180472,
+          "viewDidLoad.beginMs": 922.8094583377242,
+          "viewDidLoad.endMs": 928.4674582304433,
+          "dictionary.load.beginMs": 928.3704583067447,
+          "dictionary.load.endMs": 928.4574582707137,
+          "viewWillAppear.beginMs": 942.3724582884461,
+          "viewDidAppearMs": 948.3744582394138
+        },
+        {
+          "route": "englishToMiWarm",
+          "touchDown": 554146.707916,
+          "touchUp": 554146.7679744166,
+          "holdMs": 60.05841656588018,
+          "modeChangedMs": 79.85400001052767,
+          "firstMatchingFrameMs": 118.75099991448224,
+          "settledFrameMs": 167.083999956958,
+          "controllerReadyMs": 153.04299991112202,
+          "readyFrameMs": 167.083999956958,
+          "lastNonmatchingFrameMs": 110.41799990925938,
+          "frameIndex": 462,
+          "settledFrameIndex": 467,
+          "keyboard.construct.beginMs": 127.49099999200553,
+          "keyboard.construct.endMs": 132.74999998975545,
+          "viewDidLoad.beginMs": 127.47800000943244,
+          "viewDidLoad.endMs": 133.13599990215153,
+          "dictionary.load.beginMs": 133.03899997845292,
+          "dictionary.load.endMs": 133.1259999424219,
+          "viewWillAppear.beginMs": 147.0409999601543,
+          "viewDidAppearMs": 153.04299991112202
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 554148.103759625,
+          "touchUp": 554148.1638364583,
+          "holdMs": 60.07683335337788,
+          "modeChangedMs": 71.88837497960776,
+          "firstMatchingFrameMs": 119.57437498494983,
+          "settledFrameMs": 119.57437498494983,
+          "controllerReadyMs": 92.18437504023314,
+          "readyFrameMs": 119.57437498494983,
+          "lastNonmatchingFrameMs": 109.5743749756366,
+          "frameIndex": 561,
+          "settledFrameIndex": 561,
+          "process.constructorMs": 1381.4063749741763
+        },
+        {
+          "route": "englishToMiCold",
+          "touchDown": 554149.2260615834,
+          "touchUp": 554149.2861462916,
+          "holdMs": 60.08470826782286,
+          "modeChangedMs": 78.35341664031148,
+          "firstMatchingFrameMs": 112.27241659071296,
+          "settledFrameMs": 410.6054166331887,
+          "controllerReadyMs": 394.6814165683463,
+          "readyFrameMs": 410.6054166331887,
+          "lastNonmatchingFrameMs": 62.27241666056216,
+          "frameIndex": 636,
+          "settledFrameIndex": 656,
+          "process.constructorMs": 259.10441658925265,
+          "keyboard.construct.beginMs": 337.64041657559574,
+          "keyboard.construct.endMs": 348.8784165820107,
+          "viewDidLoad.beginMs": 337.6074166735634,
+          "viewDidLoad.endMs": 353.5074166720733,
+          "dictionary.load.beginMs": 349.23241659998894,
+          "dictionary.load.endMs": 353.49741659592837,
+          "viewWillAppear.beginMs": 389.5324165932834,
+          "viewDidAppearMs": 394.6814165683463
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 554150.622079125,
+          "touchUp": 554150.677989875,
+          "holdMs": 55.91074994299561,
+          "modeChangedMs": 63.83787503000349,
+          "firstMatchingFrameMs": 107.92087495792657,
+          "settledFrameMs": 107.92087495792657,
+          "controllerReadyMs": 82.5248749461025,
+          "readyFrameMs": 107.92087495792657,
+          "lastNonmatchingFrameMs": 99.58787495270371,
+          "frameIndex": 725,
+          "settledFrameIndex": 725
+        },
+        {
+          "route": "englishToMiCold",
+          "touchDown": 554151.786070625,
+          "touchUp": 554151.8461295416,
+          "holdMs": 60.05891668610275,
+          "modeChangedMs": 67.95337505172938,
+          "firstMatchingFrameMs": 110.59637507423759,
+          "settledFrameMs": 417.2633750131354,
+          "controllerReadyMs": 398.9553750725463,
+          "readyFrameMs": 417.2633750131354,
+          "lastNonmatchingFrameMs": 48.92937501426786,
+          "frameIndex": 827,
+          "settledFrameIndex": 860,
+          "process.constructorMs": 263.06737505365163,
+          "keyboard.construct.beginMs": 342.6483750808984,
+          "keyboard.construct.endMs": 353.76537509728223,
+          "viewDidLoad.beginMs": 342.6223749993369,
+          "viewDidLoad.endMs": 358.25637506786734,
+          "dictionary.load.beginMs": 354.093375033699,
+          "dictionary.load.endMs": 358.2473749993369,
+          "viewWillAppear.beginMs": 393.27937504276633,
+          "viewDidAppearMs": 398.9553750725463
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 554153.1815432917,
+          "touchUp": 554153.241603625,
+          "holdMs": 60.06033334415406,
+          "modeChangedMs": 67.66270834486932,
+          "firstMatchingFrameMs": 111.79070838261396,
+          "settledFrameMs": 111.79070838261396,
+          "controllerReadyMs": 86.54470834881067,
+          "readyFrameMs": 111.79070838261396,
+          "lastNonmatchingFrameMs": 101.79070837330073,
+          "frameIndex": 931,
+          "settledFrameIndex": 931
+        },
+        {
+          "route": "englishToMiCold",
+          "touchDown": 554154.3539329583,
+          "touchUp": 554154.4139865,
+          "holdMs": 60.05354167427868,
+          "modeChangedMs": 66.76604168023914,
+          "firstMatchingFrameMs": 97.7340416284278,
+          "settledFrameMs": 416.06704168953,
+          "controllerReadyMs": 397.0220417249948,
+          "readyFrameMs": 416.06704168953,
+          "lastNonmatchingFrameMs": 46.06704169418663,
+          "frameIndex": 1037,
+          "settledFrameIndex": 1073,
+          "process.constructorMs": 248.27004165854305,
+          "keyboard.construct.beginMs": 331.05304162018,
+          "keyboard.construct.endMs": 342.5700416555628,
+          "viewDidLoad.beginMs": 331.02204161696136,
+          "viewDidLoad.endMs": 347.46804169844836,
+          "dictionary.load.beginMs": 342.9570416919887,
+          "dictionary.load.endMs": 347.4470416549593,
+          "viewWillAppear.beginMs": 384.0380416950211,
+          "viewDidAppearMs": 397.0220417249948
+        },
+        {
+          "route": "finalMiToEnglish",
+          "touchDown": 554155.7369615,
+          "touchUp": 554155.7970192917,
+          "holdMs": 60.05779164843261,
+          "modeChangedMs": 68.299499922432,
+          "firstMatchingFrameMs": 104.70549995079637,
+          "settledFrameMs": 104.70549995079637,
+          "controllerReadyMs": 82.98049995210022,
+          "readyFrameMs": 104.70549995079637,
+          "lastNonmatchingFrameMs": 94.70549994148314,
+          "frameIndex": 1144,
+          "settledFrameIndex": 1144
+        }
+      ],
+      "groups": {
+        "miToEnglish": {
+          "count": 6,
+          "metrics": {
+            "holdMs": {
+              "median": 60.06225000601262,
+              "p95": 60.07683335337788,
+              "max": 60.07683335337788
+            },
+            "modeChangedMs": {
+              "median": 67.7122917259112,
+              "p95": 74.05370834749192,
+              "max": 74.05370834749192
+            },
+            "firstMatchingFrameMs": {
+              "median": 111.8202917277813,
+              "p95": 127.64770828653127,
+              "max": 127.64770828653127
+            },
+            "settledFrameMs": {
+              "median": 111.8202917277813,
+              "p95": 127.64770828653127,
+              "max": 127.64770828653127
+            },
+            "controllerReadyMs": {
+              "median": 86.90829167608172,
+              "p95": 92.3367083305493,
+              "max": 92.3367083305493
+            },
+            "readyFrameMs": {
+              "median": 111.8202917277813,
+              "p95": 127.64770828653127,
+              "max": 127.64770828653127
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 101.82029171846807,
+              "p95": 120.98070827778429,
+              "max": 120.98070827778429
+            },
+            "keyboard.construct.beginMs": {
+              "median": 909.3257082859054,
+              "p95": 922.8224583202973,
+              "max": 922.8224583202973
+            },
+            "keyboard.construct.endMs": {
+              "median": 914.8227083496749,
+              "p95": 928.0814583180472,
+              "max": 928.0814583180472
+            },
+            "viewDidLoad.beginMs": {
+              "median": 909.3107082881033,
+              "p95": 922.8094583377242,
+              "max": 922.8094583377242
+            },
+            "viewDidLoad.endMs": {
+              "median": 915.2687082532793,
+              "p95": 928.4674582304433,
+              "max": 928.4674582304433
+            },
+            "dictionary.load.beginMs": {
+              "median": 915.1407083263621,
+              "p95": 928.3704583067447,
+              "max": 928.3704583067447
+            },
+            "dictionary.load.endMs": {
+              "median": 915.2587082935497,
+              "p95": 928.4574582707137,
+              "max": 928.4574582707137
+            },
+            "viewWillAppear.beginMs": {
+              "median": 928.0337083619088,
+              "p95": 942.3724582884461,
+              "max": 942.3724582884461
+            },
+            "viewDidAppearMs": {
+              "median": 940.3147082775831,
+              "p95": 948.3744582394138,
+              "max": 948.3744582394138
+            }
+          }
+        },
+        "englishToMiCold": {
+          "count": 3,
+          "metrics": {
+            "holdMs": {
+              "median": 60.05891668610275,
+              "p95": 60.08470826782286,
+              "max": 60.08470826782286
+            },
+            "modeChangedMs": {
+              "median": 67.95337505172938,
+              "p95": 78.35341664031148,
+              "max": 78.35341664031148
+            },
+            "firstMatchingFrameMs": {
+              "median": 110.59637507423759,
+              "p95": 112.27241659071296,
+              "max": 112.27241659071296
+            },
+            "settledFrameMs": {
+              "median": 416.06704168953,
+              "p95": 417.2633750131354,
+              "max": 417.2633750131354
+            },
+            "controllerReadyMs": {
+              "median": 397.0220417249948,
+              "p95": 398.9553750725463,
+              "max": 398.9553750725463
+            },
+            "readyFrameMs": {
+              "median": 416.06704168953,
+              "p95": 417.2633750131354,
+              "max": 417.2633750131354
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 48.92937501426786,
+              "p95": 62.27241666056216,
+              "max": 62.27241666056216
+            },
+            "process.constructorMs": {
+              "median": 259.10441658925265,
+              "p95": 263.06737505365163,
+              "max": 263.06737505365163
+            },
+            "keyboard.construct.beginMs": {
+              "median": 337.64041657559574,
+              "p95": 342.6483750808984,
+              "max": 342.6483750808984
+            },
+            "keyboard.construct.endMs": {
+              "median": 348.8784165820107,
+              "p95": 353.76537509728223,
+              "max": 353.76537509728223
+            },
+            "viewDidLoad.beginMs": {
+              "median": 337.6074166735634,
+              "p95": 342.6223749993369,
+              "max": 342.6223749993369
+            },
+            "viewDidLoad.endMs": {
+              "median": 353.5074166720733,
+              "p95": 358.25637506786734,
+              "max": 358.25637506786734
+            },
+            "dictionary.load.beginMs": {
+              "median": 349.23241659998894,
+              "p95": 354.093375033699,
+              "max": 354.093375033699
+            },
+            "dictionary.load.endMs": {
+              "median": 353.49741659592837,
+              "p95": 358.2473749993369,
+              "max": 358.2473749993369
+            },
+            "viewWillAppear.beginMs": {
+              "median": 389.5324165932834,
+              "p95": 393.27937504276633,
+              "max": 393.27937504276633
+            },
+            "viewDidAppearMs": {
+              "median": 397.0220417249948,
+              "p95": 398.9553750725463,
+              "max": 398.9553750725463
+            }
+          }
+        },
+        "englishToMiWarm": {
+          "count": 3,
+          "metrics": {
+            "holdMs": {
+              "median": 60.06233335938305,
+              "p95": 60.075500048696995,
+              "max": 60.075500048696995
+            },
+            "modeChangedMs": {
+              "median": 72.22270825877786,
+              "p95": 79.85400001052767,
+              "max": 79.85400001052767
+            },
+            "firstMatchingFrameMs": {
+              "median": 106.67770833242685,
+              "p95": 118.75099991448224,
+              "max": 118.75099991448224
+            },
+            "settledFrameMs": {
+              "median": 164.15004176087677,
+              "p95": 167.083999956958,
+              "max": 167.083999956958
+            },
+            "controllerReadyMs": {
+              "median": 145.15004167333245,
+              "p95": 153.04299991112202,
+              "max": 153.04299991112202
+            },
+            "readyFrameMs": {
+              "median": 164.15004176087677,
+              "p95": 167.083999956958,
+              "max": 167.083999956958
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 92.48304169159383,
+              "p95": 110.41799990925938,
+              "max": 110.41799990925938
+            },
+            "keyboard.construct.beginMs": {
+              "median": 114.16104168165475,
+              "p95": 127.49099999200553,
+              "max": 127.49099999200553
+            },
+            "keyboard.construct.endMs": {
+              "median": 119.65804174542427,
+              "p95": 132.74999998975545,
+              "max": 132.74999998975545
+            },
+            "viewDidLoad.beginMs": {
+              "median": 114.14604168385267,
+              "p95": 127.47800000943244,
+              "max": 127.47800000943244
+            },
+            "viewDidLoad.endMs": {
+              "median": 120.10404164902866,
+              "p95": 133.13599990215153,
+              "max": 133.13599990215153
+            },
+            "dictionary.load.beginMs": {
+              "median": 119.9760417221114,
+              "p95": 133.03899997845292,
+              "max": 133.03899997845292
+            },
+            "dictionary.load.endMs": {
+              "median": 120.09404168929905,
+              "p95": 133.1259999424219,
+              "max": 133.1259999424219
+            },
+            "viewWillAppear.beginMs": {
+              "median": 132.86904175765812,
+              "p95": 147.0409999601543,
+              "max": 147.0409999601543
+            },
+            "viewDidAppearMs": {
+              "median": 145.15004167333245,
+              "p95": 153.04299991112202,
+              "max": 153.04299991112202
+            }
+          }
+        },
+        "finalMiToEnglish": {
+          "count": 1,
+          "metrics": {
+            "holdMs": {
+              "median": 60.05779164843261,
+              "p95": 60.05779164843261,
+              "max": 60.05779164843261
+            },
+            "modeChangedMs": {
+              "median": 68.299499922432,
+              "p95": 68.299499922432,
+              "max": 68.299499922432
+            },
+            "firstMatchingFrameMs": {
+              "median": 104.70549995079637,
+              "p95": 104.70549995079637,
+              "max": 104.70549995079637
+            },
+            "settledFrameMs": {
+              "median": 104.70549995079637,
+              "p95": 104.70549995079637,
+              "max": 104.70549995079637
+            },
+            "controllerReadyMs": {
+              "median": 82.98049995210022,
+              "p95": 82.98049995210022,
+              "max": 82.98049995210022
+            },
+            "readyFrameMs": {
+              "median": 104.70549995079637,
+              "p95": 104.70549995079637,
+              "max": 104.70549995079637
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 94.70549994148314,
+              "p95": 94.70549994148314,
+              "max": 94.70549994148314
+            }
+          }
+        }
+      }
+    },
+    "minimalUIKitControl": {
+      "capture": "native-minimum1",
+      "scope": "Direct Simulator HID; no XCTest process, automation/accessibility settings unchanged; full touch-down to matching recorded destination frame, includes hold and launch; +/- one display frame, not physical display latency",
+      "frameClockAlignment": {
+        "offset": 554428.555,
+        "offsetQuantiles": [
+          554428.5480000001,
+          554428.552,
+          554428.553333,
+          554428.555,
+          554428.555667
+        ]
+      },
+      "rows": [
+        {
+          "route": "miToEnglish",
+          "touchDown": 554429.398333875,
+          "touchUp": 554429.458396,
+          "holdMs": 60.062124975956976,
+          "modeChangedMs": 69.29212505929172,
+          "firstMatchingFrameMs": 101.66612500324845,
+          "settledFrameMs": 101.66612500324845,
+          "controllerReadyMs": 82.7221249928698,
+          "readyFrameMs": 101.66612500324845,
+          "lastNonmatchingFrameMs": 78.33312510047108,
+          "frameIndex": 63,
+          "settledFrameIndex": 63,
+          "viewDidLoad.beginMs": 925.3631250467151,
+          "viewDidLoad.endMs": 925.727125024423,
+          "viewWillAppear.beginMs": 932.1821250487119,
+          "viewDidAppearMs": 937.5121250050142
+        },
+        {
+          "route": "englishToMiWarm",
+          "touchDown": 554430.1947596667,
+          "touchUp": 554430.2548499583,
+          "holdMs": 60.090291663073,
+          "modeChangedMs": 76.24633330851793,
+          "firstMatchingFrameMs": 120.24033337365836,
+          "settledFrameMs": 160.24033341091126,
+          "controllerReadyMs": 141.08633331488818,
+          "readyFrameMs": 160.24033341091126,
+          "lastNonmatchingFrameMs": 106.90733336377889,
+          "frameIndex": 136,
+          "settledFrameIndex": 141,
+          "viewDidLoad.beginMs": 128.93733335658908,
+          "viewDidLoad.endMs": 129.30133333429694,
+          "viewWillAppear.beginMs": 135.75633335858583,
+          "viewDidAppearMs": 141.08633331488818
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 554431.5902355834,
+          "touchUp": 554431.6503042083,
+          "holdMs": 60.06862490903586,
+          "modeChangedMs": 68.68641660548747,
+          "firstMatchingFrameMs": 113.09741670265794,
+          "settledFrameMs": 113.09741670265794,
+          "controllerReadyMs": 87.11941668298095,
+          "readyFrameMs": 113.09741670265794,
+          "lastNonmatchingFrameMs": 101.43141669686884,
+          "frameIndex": 234,
+          "settledFrameIndex": 234,
+          "viewDidLoad.beginMs": 890.6734166666865,
+          "viewDidLoad.endMs": 890.958416624926,
+          "viewWillAppear.beginMs": 899.7094166697934,
+          "viewDidAppearMs": 910.7574166264385
+        },
+        {
+          "route": "englishToMiWarm",
+          "touchDown": 554432.3639592084,
+          "touchUp": 554432.4240220833,
+          "holdMs": 60.062874923460186,
+          "modeChangedMs": 73.14479164779186,
+          "firstMatchingFrameMs": 107.70779172889888,
+          "settledFrameMs": 157.7077916590497,
+          "controllerReadyMs": 137.03379163052887,
+          "readyFrameMs": 157.7077916590497,
+          "lastNonmatchingFrameMs": 99.37379171606153,
+          "frameIndex": 302,
+          "settledFrameIndex": 307,
+          "viewDidLoad.beginMs": 116.9497916707769,
+          "viewDidLoad.endMs": 117.2347916290164,
+          "viewWillAppear.beginMs": 125.9857916738838,
+          "viewDidAppearMs": 137.03379163052887
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 554433.7595214166,
+          "touchUp": 554433.8196117916,
+          "holdMs": 60.09037501644343,
+          "modeChangedMs": 68.54858342558146,
+          "firstMatchingFrameMs": 117.14558338280767,
+          "settledFrameMs": 117.14558338280767,
+          "controllerReadyMs": 88.75858341343701,
+          "readyFrameMs": 117.14558338280767,
+          "lastNonmatchingFrameMs": 105.4785834858194,
+          "frameIndex": 395,
+          "settledFrameIndex": 395,
+          "viewDidLoad.beginMs": 914.982583373785,
+          "viewDidLoad.endMs": 915.2755833929405,
+          "viewWillAppear.beginMs": 922.0905833644792,
+          "viewDidAppearMs": 927.1665833657607
+        },
+        {
+          "route": "englishToMiWarm",
+          "touchDown": 554434.5518587084,
+          "touchUp": 554434.61192975,
+          "holdMs": 60.07104157470167,
+          "modeChangedMs": 69.98629157897085,
+          "firstMatchingFrameMs": 114.80829166248441,
+          "settledFrameMs": 151.47429169155657,
+          "controllerReadyMs": 134.82929160818458,
+          "readyFrameMs": 151.47429169155657,
+          "lastNonmatchingFrameMs": 101.47429164499044,
+          "frameIndex": 467,
+          "settledFrameIndex": 471,
+          "viewDidLoad.beginMs": 122.64529161620885,
+          "viewDidLoad.endMs": 122.9382916353643,
+          "viewWillAppear.beginMs": 129.75329160690308,
+          "viewDidAppearMs": 134.82929160818458
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 554435.9483594584,
+          "touchUp": 554436.0084230833,
+          "holdMs": 60.06362498737872,
+          "modeChangedMs": 63.10554163064808,
+          "firstMatchingFrameMs": 93.30754168331623,
+          "settledFrameMs": 93.30754168331623,
+          "controllerReadyMs": 73.00354167819023,
+          "readyFrameMs": 93.30754168331623,
+          "lastNonmatchingFrameMs": 78.30754166934639,
+          "frameIndex": 561,
+          "settledFrameIndex": 561
+        },
+        {
+          "route": "englishToMiCold",
+          "touchDown": 554437.119041875,
+          "touchUp": 554437.1791254167,
+          "holdMs": 60.083541669882834,
+          "modeChangedMs": 68.0881249718368,
+          "firstMatchingFrameMs": 105.95812508836389,
+          "settledFrameMs": 402.62512501794845,
+          "controllerReadyMs": 381.98912504594773,
+          "readyFrameMs": 402.62512501794845,
+          "lastNonmatchingFrameMs": 49.291125033050776,
+          "frameIndex": 669,
+          "settledFrameIndex": 704,
+          "process.constructorMs": 262.1441249502823,
+          "viewDidLoad.beginMs": 340.1681249961257,
+          "viewDidLoad.endMs": 345.3021249733865,
+          "viewWillAppear.beginMs": 369.9661249993369,
+          "viewDidAppearMs": 381.98912504594773
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 554438.52165275,
+          "touchUp": 554438.581714,
+          "holdMs": 60.061249998398125,
+          "modeChangedMs": 69.94325004052371,
+          "firstMatchingFrameMs": 113.34725003689528,
+          "settledFrameMs": 113.34725003689528,
+          "controllerReadyMs": 87.4312500236556,
+          "readyFrameMs": 113.34725003689528,
+          "lastNonmatchingFrameMs": 101.68025002349168,
+          "frameIndex": 779,
+          "settledFrameIndex": 779
+        },
+        {
+          "route": "englishToMiCold",
+          "touchDown": 554439.652635875,
+          "touchUp": 554439.7127055416,
+          "holdMs": 60.06966659333557,
+          "modeChangedMs": 67.55712500307709,
+          "firstMatchingFrameMs": 100.69712495896965,
+          "settledFrameMs": 384.03112499509007,
+          "controllerReadyMs": 365.0511249434203,
+          "readyFrameMs": 384.03112499509007,
+          "lastNonmatchingFrameMs": 50.697125028818846,
+          "frameIndex": 882,
+          "settledFrameIndex": 902,
+          "process.constructorMs": 246.74812494777143,
+          "viewDidLoad.beginMs": 325.25412493851036,
+          "viewDidLoad.endMs": 330.28112491592765,
+          "viewWillAppear.beginMs": 352.7861249167472,
+          "viewDidAppearMs": 365.0511249434203
+        },
+        {
+          "route": "miToEnglish",
+          "touchDown": 554441.0457377083,
+          "touchUp": 554441.10580375,
+          "holdMs": 60.06604165304452,
+          "modeChangedMs": 68.04929161444306,
+          "firstMatchingFrameMs": 112.59529169183224,
+          "settledFrameMs": 112.59529169183224,
+          "controllerReadyMs": 86.50529163423926,
+          "readyFrameMs": 112.59529169183224,
+          "lastNonmatchingFrameMs": 102.59529168251902,
+          "frameIndex": 975,
+          "settledFrameIndex": 975,
+          "process.constructorMs": 1376.168291666545
+        },
+        {
+          "route": "englishToMiCold",
+          "touchDown": 554442.1798952083,
+          "touchUp": 554442.2320468334,
+          "holdMs": 52.15162504464388,
+          "modeChangedMs": 57.13379161898047,
+          "firstMatchingFrameMs": 90.10479168500751,
+          "settledFrameMs": 375.1047917176038,
+          "controllerReadyMs": 355.7337917154655,
+          "readyFrameMs": 375.1047917176038,
+          "lastNonmatchingFrameMs": 40.104791754856706,
+          "frameIndex": 1081,
+          "settledFrameIndex": 1102,
+          "process.constructorMs": 242.0107916695997,
+          "viewDidLoad.beginMs": 322.57779163774103,
+          "viewDidLoad.endMs": 328.0187916243449,
+          "viewWillAppear.beginMs": 351.0127916233614,
+          "viewDidAppearMs": 355.7337917154655
+        },
+        {
+          "route": "finalMiToEnglish",
+          "touchDown": 554443.554449875,
+          "touchUp": 554443.6145171666,
+          "holdMs": 60.06729160435498,
+          "modeChangedMs": 69.81212494429201,
+          "firstMatchingFrameMs": 113.88312501367182,
+          "settledFrameMs": 113.88312501367182,
+          "controllerReadyMs": 87.44312496855855,
+          "readyFrameMs": 113.88312501367182,
+          "lastNonmatchingFrameMs": 102.21712500788271,
+          "frameIndex": 1177,
+          "settledFrameIndex": 1177
+        }
+      ],
+      "groups": {
+        "englishToMiWarm": {
+          "count": 3,
+          "metrics": {
+            "holdMs": {
+              "median": 60.07104157470167,
+              "p95": 60.090291663073,
+              "max": 60.090291663073
+            },
+            "modeChangedMs": {
+              "median": 73.14479164779186,
+              "p95": 76.24633330851793,
+              "max": 76.24633330851793
+            },
+            "firstMatchingFrameMs": {
+              "median": 114.80829166248441,
+              "p95": 120.24033337365836,
+              "max": 120.24033337365836
+            },
+            "settledFrameMs": {
+              "median": 157.7077916590497,
+              "p95": 160.24033341091126,
+              "max": 160.24033341091126
+            },
+            "controllerReadyMs": {
+              "median": 137.03379163052887,
+              "p95": 141.08633331488818,
+              "max": 141.08633331488818
+            },
+            "readyFrameMs": {
+              "median": 157.7077916590497,
+              "p95": 160.24033341091126,
+              "max": 160.24033341091126
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 101.47429164499044,
+              "p95": 106.90733336377889,
+              "max": 106.90733336377889
+            },
+            "viewDidLoad.beginMs": {
+              "median": 122.64529161620885,
+              "p95": 128.93733335658908,
+              "max": 128.93733335658908
+            },
+            "viewDidLoad.endMs": {
+              "median": 122.9382916353643,
+              "p95": 129.30133333429694,
+              "max": 129.30133333429694
+            },
+            "viewWillAppear.beginMs": {
+              "median": 129.75329160690308,
+              "p95": 135.75633335858583,
+              "max": 135.75633335858583
+            },
+            "viewDidAppearMs": {
+              "median": 137.03379163052887,
+              "p95": 141.08633331488818,
+              "max": 141.08633331488818
+            }
+          }
+        },
+        "finalMiToEnglish": {
+          "count": 1,
+          "metrics": {
+            "holdMs": {
+              "median": 60.06729160435498,
+              "p95": 60.06729160435498,
+              "max": 60.06729160435498
+            },
+            "modeChangedMs": {
+              "median": 69.81212494429201,
+              "p95": 69.81212494429201,
+              "max": 69.81212494429201
+            },
+            "firstMatchingFrameMs": {
+              "median": 113.88312501367182,
+              "p95": 113.88312501367182,
+              "max": 113.88312501367182
+            },
+            "settledFrameMs": {
+              "median": 113.88312501367182,
+              "p95": 113.88312501367182,
+              "max": 113.88312501367182
+            },
+            "controllerReadyMs": {
+              "median": 87.44312496855855,
+              "p95": 87.44312496855855,
+              "max": 87.44312496855855
+            },
+            "readyFrameMs": {
+              "median": 113.88312501367182,
+              "p95": 113.88312501367182,
+              "max": 113.88312501367182
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 102.21712500788271,
+              "p95": 102.21712500788271,
+              "max": 102.21712500788271
+            }
+          }
+        },
+        "miToEnglish": {
+          "count": 6,
+          "metrics": {
+            "holdMs": {
+              "median": 60.06483332021162,
+              "p95": 60.09037501644343,
+              "max": 60.09037501644343
+            },
+            "modeChangedMs": {
+              "median": 68.61750001553446,
+              "p95": 69.94325004052371,
+              "max": 69.94325004052371
+            },
+            "firstMatchingFrameMs": {
+              "median": 112.84635419724509,
+              "p95": 117.14558338280767,
+              "max": 117.14558338280767
+            },
+            "settledFrameMs": {
+              "median": 112.84635419724509,
+              "p95": 117.14558338280767,
+              "max": 117.14558338280767
+            },
+            "controllerReadyMs": {
+              "median": 86.8123541586101,
+              "p95": 88.75858341343701,
+              "max": 88.75858341343701
+            },
+            "readyFrameMs": {
+              "median": 112.84635419724509,
+              "p95": 117.14558338280767,
+              "max": 117.14558338280767
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 101.55583336018026,
+              "p95": 105.4785834858194,
+              "max": 105.4785834858194
+            },
+            "viewDidLoad.beginMs": {
+              "median": 914.982583373785,
+              "p95": 925.3631250467151,
+              "max": 925.3631250467151
+            },
+            "viewDidLoad.endMs": {
+              "median": 915.2755833929405,
+              "p95": 925.727125024423,
+              "max": 925.727125024423
+            },
+            "viewWillAppear.beginMs": {
+              "median": 922.0905833644792,
+              "p95": 932.1821250487119,
+              "max": 932.1821250487119
+            },
+            "viewDidAppearMs": {
+              "median": 927.1665833657607,
+              "p95": 937.5121250050142,
+              "max": 937.5121250050142
+            }
+          }
+        },
+        "englishToMiCold": {
+          "count": 3,
+          "metrics": {
+            "holdMs": {
+              "median": 60.06966659333557,
+              "p95": 60.083541669882834,
+              "max": 60.083541669882834
+            },
+            "modeChangedMs": {
+              "median": 67.55712500307709,
+              "p95": 68.0881249718368,
+              "max": 68.0881249718368
+            },
+            "firstMatchingFrameMs": {
+              "median": 100.69712495896965,
+              "p95": 105.95812508836389,
+              "max": 105.95812508836389
+            },
+            "settledFrameMs": {
+              "median": 384.03112499509007,
+              "p95": 402.62512501794845,
+              "max": 402.62512501794845
+            },
+            "controllerReadyMs": {
+              "median": 365.0511249434203,
+              "p95": 381.98912504594773,
+              "max": 381.98912504594773
+            },
+            "readyFrameMs": {
+              "median": 384.03112499509007,
+              "p95": 402.62512501794845,
+              "max": 402.62512501794845
+            },
+            "lastNonmatchingFrameMs": {
+              "median": 49.291125033050776,
+              "p95": 50.697125028818846,
+              "max": 50.697125028818846
+            },
+            "process.constructorMs": {
+              "median": 246.74812494777143,
+              "p95": 262.1441249502823,
+              "max": 262.1441249502823
+            },
+            "viewDidLoad.beginMs": {
+              "median": 325.25412493851036,
+              "p95": 340.1681249961257,
+              "max": 340.1681249961257
+            },
+            "viewDidLoad.endMs": {
+              "median": 330.28112491592765,
+              "p95": 345.3021249733865,
+              "max": 345.3021249733865
+            },
+            "viewWillAppear.beginMs": {
+              "median": 352.7861249167472,
+              "p95": 369.9661249993369,
+              "max": 369.9661249993369
+            },
+            "viewDidAppearMs": {
+              "median": 365.0511249434203,
+              "p95": 381.98912504594773,
+              "max": 381.98912504594773
+            }
+          }
+        }
+      }
+    },
+    "directAdvance": {
+      "originalMedianFrameMs": 112.9884792608209,
+      "trialMedianFrameMs": 112.1112709515728,
+      "source": "Separate XCTest-driven exploratory trial with stack sampling; difference below one display frame, not causal speedup evidence",
+      "kept": false
+    }
+  },
+  "negativeControl": {
+    "injectedDelayMs": 250,
+    "expectedExitCode": 1,
+    "passedNonRegressionBudgets": false,
+    "failureReason": "latency regression",
+    "groups": {
+      "miToEnglish": {
+        "count": 1,
+        "medianMs": 366.7301667155698,
+        "p95Ms": 366.7301667155698
+      },
+      "englishToMiWarm": {
+        "count": 1,
+        "medianMs": 157.40720834583044,
+        "p95Ms": 157.40720834583044
+      }
+    },
+    "nativeEnglishOutputVerified": true,
+    "chineseOutputAndCompositionCancellationVerified": true,
+    "unmodifiedAppRestored": true,
+    "source": "Isolated copy only; no injected delay in shipping source"
+  }
+}

@@ -25,3 +25,7 @@ The performance baseline is this project's own historical Swift implementation f
 ## Product names and trademarks
 
 米鍵盤 (Mi Keyboard) is independently developed and is not affiliated with, sponsored by, or endorsed by the vendor of 嘸蝦米 / Boshiamy. References to those names describe character-code compatibility or identify upstream data; they do not identify this project as an official product. All third-party trademarks remain the property of their respective owners.
+
+## Simulator profiling tools
+
+The development-only HID helper references Meta idb's MIT-licensed interface material. [Notice and scope](Tests/SwitchProfiling/NOTICE.md). These helpers and Xcode's private SimulatorKit framework are excluded from the shipping App.

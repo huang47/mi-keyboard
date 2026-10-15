@@ -74,3 +74,5 @@ python3 scripts/prepare_homophones.py
 1.0（21）移除 controller 再次出現時的字表重裝，新增 100 ms 的 App 啟用／重新啟用回歸測試，保留原生 English 與地球鍵選單。這個門檻不包含系統切換或實體顯示時間；原生 touch-to-display 200／100 ms 尚未驗證。[最佳化、前後數據與限制](Documentation/SWITCH-SPEED.md)。
 
 1.0（22）減少字鍵建立時未使用的標籤配置。同一 Simulator 的 Release 啟動中位數 13.09 → 10.70 ms（快 18.3%），p95 15.40 → 13.03 ms；包含真實字表解碼與排版。42 項 Release、3 項三鍵盤 UI、7 項練習 UI 與固定 build 5 門檻通過。保留原生 English 與系統地球選單；這不是完整原生切換的 200／100 ms 宣稱。[前後對照與回歸門檻](Documentation/SWITCH-IMPROVEMENT.md)。
+
+1.0（23）補上完整 Simulator 切換路徑的分段量測與回歸工具。Mi → 原生 English 約 107 ms、暖身返回約 167 ms；新 extension process 約 423 ms，主要延遲位於 iOS 啟動與 UIKit 生命週期。移除全部引擎／字表／鍵盤排版的對照仍約 384 ms，冷啟動 200 ms 目標尚未達成。本版產品程式與 build 22 相同，沒有宣稱新的 App 加速。[完整剖析、原始數據與重現方式](Documentation/SWITCH-PROFILE.md)。
