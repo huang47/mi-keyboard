@@ -1,0 +1,2368 @@
+{
+  "schemaVersion": 1,
+  "build": "21",
+  "configuration": "Release",
+  "scope": "App-owned work; not physical touch-to-display latency",
+  "baselineBuild20Goal": {
+    "automatedReadyMedianMs": 458.7835416314192,
+    "automatedReadyP95Ms": 471.79845825303346,
+    "xctestActionCallMedianMs": 389.8347499780357,
+    "meets200ms": false
+  },
+  "before": {
+    "reactivation": {
+      "scope": "App-owned viewWillAppear + layout + transaction flush; excludes iOS and touch delivery",
+      "rawMs": [
+        5.015125032514334,
+        0.08545827586203814,
+        0.060999998822808266,
+        0.2795417094603181,
+        0.2424584235996008,
+        0.11975003872066736,
+        0.06879167631268501,
+        0.08304172661155462,
+        0.12350000906735659,
+        0.09095831774175167,
+        0.04820828326046467,
+        0.053458381444215775,
+        0.05083333235234022,
+        0.047083362005651,
+        0.04483340308070183,
+        0.0459583243355155,
+        0.0439999857917428,
+        0.13525004032999277,
+        0.08099991828203201,
+        0.09462493471801281,
+        0.10087492410093546,
+        0.09037507697939873,
+        0.08141656871885061,
+        0.10383327025920153,
+        0.11070829350501299,
+        0.05008338484913111,
+        0.04354165866971016,
+        0.04983332473784685,
+        0.04212500061839819,
+        0.03941671457141638,
+        0.03795826341956854,
+        0.03916665446013212,
+        0.13058341573923826,
+        0.07483339868485928,
+        0.09312492329627275,
+        0.09695824701339006,
+        0.11720822658389807,
+        0.07483328226953745,
+        0.052749994210898876,
+        0.04695833195000887,
+        0.08412508759647608
+      ],
+      "summary": {
+        "count": 41,
+        "medianMs": 0.08099991828203201,
+        "p95Ms": 0.2424584235996008,
+        "maxMs": 5.015125032514334
+      }
+    },
+    "activationWithFreshDecode": {
+      "scope": "Controller construction + fresh dictionary decode + view activation + layout + transaction flush; excludes iOS switching and physical display",
+      "rawMs": [
+        67.83445831388235,
+        15.935124945826828,
+        13.96004157140851,
+        13.714791741222143,
+        14.270124956965446,
+        14.043541625142097,
+        13.888833345845342,
+        13.73170840088278,
+        13.82254168856889,
+        13.812708319164813,
+        14.630333287641406,
+        14.902666676789522,
+        14.386666705831885,
+        14.925041701644659,
+        15.459124930202961,
+        14.515249989926815,
+        14.51262494083494,
+        14.27133334800601,
+        13.296041754074395,
+        13.09579168446362,
+        13.643750105984509
+      ],
+      "summary": {
+        "count": 21,
+        "medianMs": 14.270124956965446,
+        "p95Ms": 15.935124945826828,
+        "maxMs": 67.83445831388235
+      }
+    }
+  },
+  "after": {
+    "reactivation": {
+      "scope": "App-owned viewWillAppear + layout + transaction flush; excludes iOS and touch delivery",
+      "rawMs": [
+        3.362458315677941,
+        0.03520841710269451,
+        0.031083356589078903,
+        0.0531667610630393,
+        0.024833250790834427,
+        0.10533328168094158,
+        0.03441667649894953,
+        0.02379168290644884,
+        0.034708413295447826,
+        0.025583431124687195,
+        0.046874978579580784,
+        0.04837499000132084,
+        0.025708344765007496,
+        0.028374954126775265,
+        0.02791674342006445,
+        0.036791665479540825,
+        0.025250017642974854,
+        0.03333331551402807,
+        0.03200001083314419,
+        0.020958250388503075,
+        0.026541645638644695,
+        0.024499953724443913,
+        0.039083417505025864,
+        0.02195837441831827,
+        0.03487500362098217,
+        0.02887495793402195,
+        0.03062502946704626,
+        0.03825000021606684,
+        0.023958389647305012,
+        0.04137493669986725,
+        0.029541668482124805,
+        0.021666637621819973,
+        0.05987496115267277,
+        0.024541630409657955,
+        0.04199997056275606,
+        0.02162496093660593,
+        0.024333246983587742,
+        0.02020830288529396,
+        0.041624996811151505,
+        0.034958356991410255,
+        0.024250010028481483
+      ],
+      "summary": {
+        "count": 41,
+        "medianMs": 0.03062502946704626,
+        "p95Ms": 0.05987496115267277,
+        "maxMs": 3.362458315677941
+      }
+    },
+    "activationWithFreshDecode": {
+      "scope": "Controller construction + fresh dictionary decode + view activation + layout + transaction flush; excludes iOS switching and physical display",
+      "rawMs": [
+        68.52829176932573,
+        15.38383332081139,
+        13.318249955773354,
+        13.30941659398377,
+        13.262791675515473,
+        13.127083308063447,
+        13.050791691057384,
+        13.043874991126359,
+        13.03595828358084,
+        13.343916623853147,
+        13.083499972708523,
+        13.030708418227732,
+        13.130583334714174,
+        13.069374952465296,
+        13.052624999545515,
+        13.129583327099681,
+        13.034791685640812,
+        13.004291686229408,
+        13.072708272375166,
+        13.032999937422574,
+        13.049708330072463
+      ],
+      "summary": {
+        "count": 21,
+        "medianMs": 13.072708272375166,
+        "p95Ms": 15.38383332081139,
+        "maxMs": 68.52829176932573
+      }
+    }
+  },
+  "exploratoryNativeProbes": {
+    "scope": "Real touch timestamp to host input-mode notification, not rendered keyboard readiness; before optimization; partial run aborted while Xcode collected diagnostics",
+    "validWholeRun": false,
+    "transitions": [
+      {
+        "firstTouchEventUptime": 537041.772359,
+        "lastTouchEventUptime": 537041.839025,
+        "hostModeChangeUptime": 537041.854045,
+        "fromFirstTouchMs": 81.6859999904409,
+        "fromLastTouchMs": 15.020000049844384
+      },
+      {
+        "firstTouchEventUptime": 537047.758448,
+        "lastTouchEventUptime": 537047.825115,
+        "hostModeChangeUptime": 537047.837895,
+        "fromFirstTouchMs": 79.44700005464256,
+        "fromLastTouchMs": 12.779999990016222
+      },
+      {
+        "firstTouchEventUptime": 537053.801118,
+        "lastTouchEventUptime": 537053.867785,
+        "hostModeChangeUptime": 537053.886763,
+        "fromFirstTouchMs": 85.64500010106713,
+        "fromLastTouchMs": 18.97800003644079
+      },
+      {
+        "firstTouchEventUptime": 537059.846814,
+        "lastTouchEventUptime": 537059.91348,
+        "hostModeChangeUptime": 537059.920493,
+        "fromFirstTouchMs": 73.6789999064058,
+        "fromLastTouchMs": 7.012999965809286
+      },
+      {
+        "firstTouchEventUptime": 537065.833589,
+        "lastTouchEventUptime": 537065.900256,
+        "hostModeChangeUptime": 537065.920197,
+        "fromFirstTouchMs": 86.60799998324364,
+        "fromLastTouchMs": 19.94100003503263
+      },
+      {
+        "firstTouchEventUptime": 537075.091739,
+        "lastTouchEventUptime": 537075.158405,
+        "hostModeChangeUptime": 537075.170718,
+        "fromFirstTouchMs": 78.97899998351932,
+        "fromLastTouchMs": 12.313000042922795
+      },
+      {
+        "firstTouchEventUptime": 537084.487808,
+        "lastTouchEventUptime": 537084.554475,
+        "hostModeChangeUptime": 537084.571313,
+        "fromFirstTouchMs": 83.50500010419637,
+        "fromLastTouchMs": 16.838000039570034
+      },
+      {
+        "firstTouchEventUptime": 537093.880829,
+        "lastTouchEventUptime": 537093.947496,
+        "hostModeChangeUptime": 537093.954339,
+        "fromFirstTouchMs": 73.51000001654029,
+        "fromLastTouchMs": 6.843000068329275
+      },
+      {
+        "firstTouchEventUptime": 537103.240839,
+        "lastTouchEventUptime": 537103.307505,
+        "hostModeChangeUptime": 537103.320702,
+        "fromFirstTouchMs": 79.86300007905811,
+        "fromLastTouchMs": 13.197000022046268
+      },
+      {
+        "firstTouchEventUptime": 537112.573267,
+        "lastTouchEventUptime": 537112.639933,
+        "hostModeChangeUptime": 537112.654113,
+        "fromFirstTouchMs": 80.84599999710917,
+        "fromLastTouchMs": 14.180000056512654
+      }
+    ],
+    "events": [
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536824.999422,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536824.999937,
+        "elapsedMs": 0.515417,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536825.056576,
+        "elapsedMs": 6.21125,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536825.056791,
+        "elapsedMs": 6.426542,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536828.789284,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536828.789312,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536862.703237,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536866.301294,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536866.411078,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536866.411485,
+        "elapsedMs": 0.407208,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536866.425589,
+        "elapsedMs": 0.027583,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536866.425758,
+        "elapsedMs": 0.196625,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536869.43582,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536869.441606,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536869.441632,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536871.986126,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536875.404906,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536877.936734,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536881.356328,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536883.870979,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536887.240482,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536889.753382,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536893.122689,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536895.669537,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536899.072857,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536901.652873,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536904.974419,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536907.553942,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536910.8397,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536913.386623,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536916.689474,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536919.252887,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536922.539659,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536925.068581,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536925.108804,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536925.109143,
+        "elapsedMs": 0.339458,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536925.123103,
+        "elapsedMs": 0.015417,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536925.1233,
+        "elapsedMs": 0.211917,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536928.136409,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536928.141719,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536928.14175,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536930.602038,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536930.642636,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536930.642958,
+        "elapsedMs": 0.322625,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536930.656688,
+        "elapsedMs": 0.014875,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536930.656832,
+        "elapsedMs": 0.159333,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536933.685628,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536933.689683,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536933.689705,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536936.152199,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536936.193259,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536936.193579,
+        "elapsedMs": 0.320333,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536936.207395,
+        "elapsedMs": 0.014917,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536936.207537,
+        "elapsedMs": 0.157083,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536939.202456,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536939.207071,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536939.207103,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536941.685503,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536941.72595,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536941.726306,
+        "elapsedMs": 0.356292,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536941.740488,
+        "elapsedMs": 0.013958,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536941.740639,
+        "elapsedMs": 0.164875,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536944.752423,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536944.756903,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536944.756926,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536947.201698,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536947.242217,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536947.242547,
+        "elapsedMs": 0.330292,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536947.256327,
+        "elapsedMs": 0.014125,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536947.256478,
+        "elapsedMs": 0.165542,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536950.318756,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536950.3221,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536950.322121,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536952.801803,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536952.839817,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536952.840151,
+        "elapsedMs": 0.333708,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536952.855125,
+        "elapsedMs": 0.019042,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536952.855285,
+        "elapsedMs": 0.17925,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536955.869144,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536955.873616,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536955.873648,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536958.351986,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536958.395481,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536958.395815,
+        "elapsedMs": 0.333417,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536958.410956,
+        "elapsedMs": 0.014208,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536958.411123,
+        "elapsedMs": 0.181458,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536961.435913,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536961.440604,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536961.440629,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536963.902141,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536963.942674,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536963.94299,
+        "elapsedMs": 0.316833,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536963.957121,
+        "elapsedMs": 0.015917,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536963.957264,
+        "elapsedMs": 0.158083,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536966.968806,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536966.972242,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536966.972263,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536969.435414,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536969.476554,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536969.47688,
+        "elapsedMs": 0.32625,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536969.491104,
+        "elapsedMs": 0.014083,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536969.491247,
+        "elapsedMs": 0.157667,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536972.502166,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536972.505883,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536972.505903,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536975.236346,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536978.71787,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536978.767076,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536978.767407,
+        "elapsedMs": 0.331083,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536978.783148,
+        "elapsedMs": 0.016417,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536978.783317,
+        "elapsedMs": 0.186333,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536981.918887,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536981.924888,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536981.924913,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536985.284541,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536985.327056,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536985.327395,
+        "elapsedMs": 0.339208,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536985.342324,
+        "elapsedMs": 0.016375,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536985.342488,
+        "elapsedMs": 0.180167,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536988.452523,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536988.459257,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536988.459282,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536991.684572,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536991.72925,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536991.729566,
+        "elapsedMs": 0.316042,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536991.746475,
+        "elapsedMs": 0.01625,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536991.746615,
+        "elapsedMs": 0.155458,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536994.769207,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 536994.775751,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 536994.775774,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 536997.967934,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 536998.01456,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 536998.014883,
+        "elapsedMs": 0.32275,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 536998.030364,
+        "elapsedMs": 0.01625,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 536998.030514,
+        "elapsedMs": 0.165917,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537001.118844,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537001.124216,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537001.124235,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537004.33446,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537004.377245,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537004.377595,
+        "elapsedMs": 0.3505,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537004.394696,
+        "elapsedMs": 0.016625,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537004.394903,
+        "elapsedMs": 0.224083,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537007.48597,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537007.493243,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537007.493285,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537010.701203,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537010.742536,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537010.742891,
+        "elapsedMs": 0.355208,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537010.758328,
+        "elapsedMs": 0.016583,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537010.758499,
+        "elapsedMs": 0.18775,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537013.752966,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537013.760778,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537013.760816,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537016.951102,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537016.992494,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537016.992809,
+        "elapsedMs": 0.31575,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537017.00808,
+        "elapsedMs": 0.01525,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537017.008231,
+        "elapsedMs": 0.166083,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537020.035855,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537020.042756,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537020.042781,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537023.234396,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537023.275104,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537023.275437,
+        "elapsedMs": 0.33375,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537023.290861,
+        "elapsedMs": 0.017833,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537023.29102,
+        "elapsedMs": 0.177292,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537026.319126,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537026.325807,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537026.325832,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537029.484596,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537029.530836,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537029.531166,
+        "elapsedMs": 0.329375,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537029.547673,
+        "elapsedMs": 0.014167,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537029.547834,
+        "elapsedMs": 0.17575,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537032.63574,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537032.641688,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537032.64171,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537035.922658,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537038.41874,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537038.464247,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537038.46461,
+        "elapsedMs": 0.362625,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537038.48191,
+        "elapsedMs": 0.016333,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537038.482076,
+        "elapsedMs": 0.183208,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537041.773375,
+        "elapsedMs": 0.0,
+        "eventUptime": 537041.772359
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537041.77344,
+        "elapsedMs": 0.065542,
+        "eventUptime": 537041.772359
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537041.850745,
+        "elapsedMs": 0.0,
+        "eventUptime": 537041.839025
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537041.850782,
+        "elapsedMs": 0.036958,
+        "eventUptime": 537041.839025
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537041.854045,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537041.871205,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537041.871235,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537044.368682,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537044.412699,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537044.413013,
+        "elapsedMs": 0.314292,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537044.431099,
+        "elapsedMs": 0.014083,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537044.431244,
+        "elapsedMs": 0.158958,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537047.759219,
+        "elapsedMs": 0.0,
+        "eventUptime": 537047.758448
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537047.759267,
+        "elapsedMs": 0.048208,
+        "eventUptime": 537047.758448
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537047.834056,
+        "elapsedMs": 0.0,
+        "eventUptime": 537047.825115
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537047.83409,
+        "elapsedMs": 0.034625,
+        "eventUptime": 537047.825115
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537047.837895,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537047.843157,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537047.843183,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537050.38443,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537050.424957,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537050.425299,
+        "elapsedMs": 0.342542,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537050.441041,
+        "elapsedMs": 0.015333,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537050.4412,
+        "elapsedMs": 0.174875,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537053.801993,
+        "elapsedMs": 0.0,
+        "eventUptime": 537053.801118
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537053.802052,
+        "elapsedMs": 0.058917,
+        "eventUptime": 537053.801118
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537053.883927,
+        "elapsedMs": 0.0,
+        "eventUptime": 537053.867785
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537053.883952,
+        "elapsedMs": 0.024917,
+        "eventUptime": 537053.867785
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537053.886763,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537053.890898,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537053.890917,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537056.418677,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537056.462606,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537056.462917,
+        "elapsedMs": 0.310417,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537056.481254,
+        "elapsedMs": 0.014875,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537056.481403,
+        "elapsedMs": 0.163625,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537059.847866,
+        "elapsedMs": 0.0,
+        "eventUptime": 537059.846814
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537059.847934,
+        "elapsedMs": 0.067833,
+        "eventUptime": 537059.846814
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537059.917352,
+        "elapsedMs": 0.0,
+        "eventUptime": 537059.91348
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537059.917383,
+        "elapsedMs": 0.030292,
+        "eventUptime": 537059.91348
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537059.920493,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537059.924791,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537059.92481,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537062.484735,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537062.531386,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537062.531704,
+        "elapsedMs": 0.318167,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537062.548168,
+        "elapsedMs": 0.0165,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537062.548327,
+        "elapsedMs": 0.175708,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537065.834487,
+        "elapsedMs": 0.0,
+        "eventUptime": 537065.833589
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537065.834548,
+        "elapsedMs": 0.060833,
+        "eventUptime": 537065.833589
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537065.917297,
+        "elapsedMs": 0.0,
+        "eventUptime": 537065.900256
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537065.917322,
+        "elapsedMs": 0.024292,
+        "eventUptime": 537065.900256
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537065.920197,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537065.92431,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537065.924327,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537068.503254,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537071.717773,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537071.765513,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537071.765846,
+        "elapsedMs": 0.333292,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537071.781745,
+        "elapsedMs": 0.01425,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537071.781888,
+        "elapsedMs": 0.15675,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537075.09268,
+        "elapsedMs": 0.0,
+        "eventUptime": 537075.091739
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537075.092747,
+        "elapsedMs": 0.067417,
+        "eventUptime": 537075.091739
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537075.167346,
+        "elapsedMs": 0.0,
+        "eventUptime": 537075.158405
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537075.167375,
+        "elapsedMs": 0.029042,
+        "eventUptime": 537075.158405
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537075.170718,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537075.17918,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537075.179208,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537077.753291,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537081.101195,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537081.148746,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537081.149077,
+        "elapsedMs": 0.330958,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537081.165094,
+        "elapsedMs": 0.013167,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537081.165236,
+        "elapsedMs": 0.154917,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537084.488701,
+        "elapsedMs": 0.0,
+        "eventUptime": 537084.487808
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537084.488767,
+        "elapsedMs": 0.065875,
+        "eventUptime": 537084.487808
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537084.567344,
+        "elapsedMs": 0.0,
+        "eventUptime": 537084.554475
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537084.567372,
+        "elapsedMs": 0.028042,
+        "eventUptime": 537084.554475
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537084.571313,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537084.582278,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537084.5823,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537087.152975,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537090.484524,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537090.53294,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537090.533261,
+        "elapsedMs": 0.321792,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537090.549337,
+        "elapsedMs": 0.013792,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537090.549485,
+        "elapsedMs": 0.162,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537093.881733,
+        "elapsedMs": 0.0,
+        "eventUptime": 537093.880829
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537093.881788,
+        "elapsedMs": 0.055375,
+        "eventUptime": 537093.880829
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537093.950702,
+        "elapsedMs": 0.0,
+        "eventUptime": 537093.947496
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537093.950733,
+        "elapsedMs": 0.031042,
+        "eventUptime": 537093.947496
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537093.954339,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537093.964831,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537093.964852,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537096.553944,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537099.851132,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537099.900007,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537099.900328,
+        "elapsedMs": 0.320792,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537099.916878,
+        "elapsedMs": 0.013958,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537099.917025,
+        "elapsedMs": 0.161167,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537103.24184,
+        "elapsedMs": 0.0,
+        "eventUptime": 537103.240839
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537103.241912,
+        "elapsedMs": 0.072333,
+        "eventUptime": 537103.240839
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537103.317365,
+        "elapsedMs": 0.0,
+        "eventUptime": 537103.307505
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537103.317397,
+        "elapsedMs": 0.031667,
+        "eventUptime": 537103.307505
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537103.320702,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537103.3292,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537103.329226,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537105.903714,
+        "mode": "en-US"
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537109.201134,
+        "mode": "zh-Hant"
+      },
+      {
+        "phase": "viewDidLoad.begin",
+        "uptime": 537109.250343,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewDidLoad.end",
+        "uptime": 537109.250654,
+        "elapsedMs": 0.311583,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "dictionary.loaded",
+        "uptime": 537109.26718,
+        "elapsedMs": 0.015083,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillAppear.end",
+        "uptime": 537109.267328,
+        "elapsedMs": 0.163125,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537112.574281,
+        "elapsedMs": 0.0,
+        "eventUptime": 537112.573267
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537112.574345,
+        "elapsedMs": 0.063875,
+        "eventUptime": 537112.573267
+      },
+      {
+        "phase": "globe.begin",
+        "uptime": 537112.650635,
+        "elapsedMs": 0.0,
+        "eventUptime": 537112.639933
+      },
+      {
+        "phase": "globe.end",
+        "uptime": 537112.650657,
+        "elapsedMs": 0.022167,
+        "eventUptime": 537112.639933
+      },
+      {
+        "phase": "host.inputModeChanged",
+        "uptime": 537112.654113,
+        "mode": "en-US"
+      },
+      {
+        "phase": "viewWillDisappear.begin",
+        "uptime": 537112.662343,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      },
+      {
+        "phase": "viewWillDisappear.end",
+        "uptime": 537112.662363,
+        "elapsedMs": 0.0,
+        "eventUptime": 0.0
+      }
+    ]
+  },
+  "native200msTouchToDisplayVerified": false,
+  "native100msTouchToDisplayVerified": false,
+  "regression": {
+    "beforeDictionaryInstallCount": 42,
+    "afterDictionaryInstallCount": 1,
+    "redResult": "1 passed, 1 expected failed",
+    "greenResult": "41 passed, 0 failed, 0 skipped",
+    "activationBudgetMs": 100,
+    "evidence": [
+      "docs/switch-speed-regression-red-summary.json",
+      "docs/switch-speed-regression-green-summary.json",
+      "docs/switch-speed-final-units-summary.json"
+    ]
+  },
+  "finalThreeKeyboardUI": {
+    "result": "Passed",
+    "passedTests": 2,
+    "failedTests": 0,
+    "skippedTests": 0,
+    "raw": {
+      "clock": "ProcessInfo.systemUptime (monotonic seconds)",
+      "enabledKeyboards": [
+        "en_US@sw=QWERTY;hw=Automatic",
+        "emoji@sw=Emoji",
+        "com.shh.boshiamy.keyboard"
+      ],
+      "environment": "iOS Simulator / XCTest / native UITextField host; not physical touch-to-display latency",
+      "measurement": "Before XCTest action to target accessibility readiness; includes event injection, app-idle waits and AX polling. Picker-open/hold time excluded from picker-selection samples.",
+      "samples": [
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 334.4005832914263,
+          "from": "english",
+          "iteration": 0,
+          "readyMilliseconds": 485.1915416074917,
+          "to": "emoji"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 335.7689999975264,
+          "from": "english",
+          "iteration": 1,
+          "readyMilliseconds": 498.2391250086948,
+          "to": "emoji"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 336.9032082846388,
+          "from": "english",
+          "iteration": 2,
+          "readyMilliseconds": 495.0662499759346,
+          "to": "emoji"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 334.417708334513,
+          "from": "english",
+          "iteration": 3,
+          "readyMilliseconds": 490.063791628927,
+          "to": "emoji"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 334.29962501395494,
+          "from": "english",
+          "iteration": 4,
+          "readyMilliseconds": 487.651624949649,
+          "to": "emoji"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 390.0799583643675,
+          "from": "emoji",
+          "iteration": 0,
+          "readyMilliseconds": 448.58700002077967,
+          "to": "english"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 388.4655833244324,
+          "from": "emoji",
+          "iteration": 1,
+          "readyMilliseconds": 459.65387497562915,
+          "to": "english"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 385.0930416956544,
+          "from": "emoji",
+          "iteration": 2,
+          "readyMilliseconds": 456.0189583571628,
+          "to": "english"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 380.95108326524496,
+          "from": "emoji",
+          "iteration": 3,
+          "readyMilliseconds": 448.2524583581835,
+          "to": "english"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 390.48262499272823,
+          "from": "emoji",
+          "iteration": 4,
+          "readyMilliseconds": 462.5987083418295,
+          "to": "english"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 333.4595416672528,
+          "from": "english",
+          "iteration": 0,
+          "readyMilliseconds": 424.22625003382564,
+          "to": "mi"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 335.07141668815166,
+          "from": "english",
+          "iteration": 1,
+          "readyMilliseconds": 438.8890416594222,
+          "to": "mi"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 333.09737499803305,
+          "from": "english",
+          "iteration": 2,
+          "readyMilliseconds": 436.9217500789091,
+          "to": "mi"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 329.8007915727794,
+          "from": "english",
+          "iteration": 3,
+          "readyMilliseconds": 420.6552082905546,
+          "to": "mi"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 337.0514583075419,
+          "from": "english",
+          "iteration": 4,
+          "readyMilliseconds": 439.43591660354286,
+          "to": "mi"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 378.86254163458943,
+          "from": "mi",
+          "iteration": 0,
+          "readyMilliseconds": 447.800291585736,
+          "to": "english"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 387.10391672793776,
+          "from": "mi",
+          "iteration": 1,
+          "readyMilliseconds": 443.6173334252089,
+          "to": "english"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 381.95870839990675,
+          "from": "mi",
+          "iteration": 2,
+          "readyMilliseconds": 449.7143750777468,
+          "to": "english"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 386.12091657705605,
+          "from": "mi",
+          "iteration": 3,
+          "readyMilliseconds": 455.090208328329,
+          "to": "english"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 385.71945833973587,
+          "from": "mi",
+          "iteration": 4,
+          "readyMilliseconds": 454.79374995920807,
+          "to": "english"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 382.80720834154636,
+          "from": "emoji",
+          "iteration": 0,
+          "readyMilliseconds": 482.65604162588716,
+          "to": "mi"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 374.9534166418016,
+          "from": "emoji",
+          "iteration": 1,
+          "readyMilliseconds": 476.9465415738523,
+          "to": "mi"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 375.6754583446309,
+          "from": "emoji",
+          "iteration": 2,
+          "readyMilliseconds": 477.28679166175425,
+          "to": "mi"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 375.5057082744315,
+          "from": "emoji",
+          "iteration": 3,
+          "readyMilliseconds": 475.389041705057,
+          "to": "mi"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 372.7663749596104,
+          "from": "emoji",
+          "iteration": 4,
+          "readyMilliseconds": 476.8694166559726,
+          "to": "mi"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 385.17312495969236,
+          "from": "mi",
+          "iteration": 0,
+          "readyMilliseconds": 535.7708332594484,
+          "to": "emoji"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 381.7649999400601,
+          "from": "mi",
+          "iteration": 1,
+          "readyMilliseconds": 527.2955832770094,
+          "to": "emoji"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 381.03050005156547,
+          "from": "mi",
+          "iteration": 2,
+          "readyMilliseconds": 527.8028750326484,
+          "to": "emoji"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 384.93404164910316,
+          "from": "mi",
+          "iteration": 3,
+          "readyMilliseconds": 529.2626665905118,
+          "to": "emoji"
+        },
+        {
+          "action": "pickerSelection",
+          "actionMilliseconds": 379.2858333326876,
+          "from": "mi",
+          "iteration": 4,
+          "readyMilliseconds": 519.7947083506733,
+          "to": "emoji"
+        },
+        {
+          "action": "shortTap",
+          "actionMilliseconds": 397.9962499579415,
+          "from": "mi",
+          "iteration": 0,
+          "previousNative": "english",
+          "readyMilliseconds": 467.52637496683747,
+          "to": "english"
+        },
+        {
+          "action": "shortTap",
+          "actionMilliseconds": 382.46216671541333,
+          "from": "mi",
+          "iteration": 1,
+          "previousNative": "english",
+          "readyMilliseconds": 439.2236666753888,
+          "to": "english"
+        },
+        {
+          "action": "shortTap",
+          "actionMilliseconds": 380.8409166522324,
+          "from": "mi",
+          "iteration": 2,
+          "previousNative": "english",
+          "readyMilliseconds": 439.02074999641627,
+          "to": "english"
+        },
+        {
+          "action": "shortTap",
+          "actionMilliseconds": 407.78787492308766,
+          "from": "mi",
+          "iteration": 3,
+          "previousNative": "english",
+          "readyMilliseconds": 475.64029158093035,
+          "to": "english"
+        },
+        {
+          "action": "shortTap",
+          "actionMilliseconds": 376.5572499250993,
+          "from": "mi",
+          "iteration": 4,
+          "previousNative": "english",
+          "readyMilliseconds": 445.17949991859496,
+          "to": "english"
+        },
+        {
+          "action": "shortTap",
+          "actionMilliseconds": 388.1255416199565,
+          "from": "mi",
+          "iteration": 0,
+          "previousNative": "emoji",
+          "readyMilliseconds": 457.42191665340215,
+          "to": "english"
+        },
+        {
+          "action": "shortTap",
+          "actionMilliseconds": 380.9649583417922,
+          "from": "mi",
+          "iteration": 1,
+          "previousNative": "emoji",
+          "readyMilliseconds": 453.28491658437997,
+          "to": "english"
+        },
+        {
+          "action": "shortTap",
+          "actionMilliseconds": 388.3653749944642,
+          "from": "mi",
+          "iteration": 2,
+          "previousNative": "emoji",
+          "readyMilliseconds": 450.3398750675842,
+          "to": "english"
+        },
+        {
+          "action": "shortTap",
+          "actionMilliseconds": 380.91716659255326,
+          "from": "mi",
+          "iteration": 3,
+          "previousNative": "emoji",
+          "readyMilliseconds": 455.5542083689943,
+          "to": "english"
+        },
+        {
+          "action": "shortTap",
+          "actionMilliseconds": 395.4930416075513,
+          "from": "mi",
+          "iteration": 4,
+          "previousNative": "emoji",
+          "readyMilliseconds": 464.98024999164045,
+          "to": "english"
+        }
+      ],
+      "schemaVersion": 1
+    },
+    "shortTapReadyMedianMs": 454.41956247668713,
+    "shortTapReadyP95Ms": 475.64029158093035,
+    "scope": "XCTest action to accessible/hittable target; includes injection and AX synchronization; not physical display"
+  }
+}

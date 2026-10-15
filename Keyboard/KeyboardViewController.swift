@@ -2,6 +2,7 @@ import UIKit
 
 final class KeyboardViewController: UIInputViewController {
     private let keyboard = KeyboardView()
+    var tableProvider: () -> CodeTable? = { try? TableStore.bundled() }
     private var height: NSLayoutConstraint?
 
     override func viewDidLoad() {
@@ -30,11 +31,9 @@ final class KeyboardViewController: UIInputViewController {
         height = view.heightAnchor.constraint(equalToConstant: KeyboardView.preferredHeight(width: view.bounds.width, compact: false))
         height?.priority = .init(999)
         height?.isActive = true
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        keyboard.load(table: try? TableStore.bundled())
+        // The bundled dictionary is immutable for this process. Install it once;
+        // reappearance must retain layout/candidate caches instead of reloading.
+        keyboard.load(table: tableProvider())
     }
 
     override func viewWillDisappear(_ animated: Bool) {

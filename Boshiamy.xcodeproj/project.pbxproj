@@ -26,6 +26,8 @@
 		464940BB3CDF9B2A5E27D8E2 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C71441E8A8FA2D94BF32570 /* PracticeView.swift */; };
 		49404767189E7E37A75B26DA /* NativeKeyboardTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E6329F27CD76C43FDEF6D2 /* NativeKeyboardTypography.swift */; };
 		59CCFB85D4BB12DA85E6C1B6 /* CandidateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FDA368BAD5D6CD9929DB60 /* CandidateList.swift */; };
+		6B957475A1F8FD94A08B2772 /* ActivationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315A815A66619639414376B7 /* ActivationTests.swift */; };
+		7468F86DB3E17785FD7605FE /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4487DE7ECCD4B9E4ADE86D46 /* KeyboardViewController.swift */; };
 		784C103D5C1C650047760913 /* PackedCodeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BE06BB0B4E5A496073C4EB /* PackedCodeTable.swift */; };
 		7A9E0B24BB9D534536D378F4 /* KeyboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0BA4B903405550355721E /* KeyboardRow.swift */; };
 		7CA666FA0E2959570EA74363 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB28B1DA033CF69A8769B3 /* UITests.swift */; };
@@ -113,6 +115,7 @@
 		2D2B39880378B917D6B3B52D /* Boshiamy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Boshiamy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDB28B1DA033CF69A8769B3 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		308C26A2FE24F2CC93C24964 /* boshiamy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = boshiamy.json; sourceTree = "<group>"; };
+		315A815A66619639414376B7 /* ActivationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationTests.swift; sourceTree = "<group>"; };
 		331ADC305E3328CA9FAD98ED /* homophones.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = homophones.json; sourceTree = "<group>"; };
 		35DD8F2704F14101A7EEA9B1 /* boshiamy.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = boshiamy.bin; sourceTree = "<group>"; };
 		3A80EA3658F91224D4EF4B62 /* NativeKeyboardGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeKeyboardGeometry.swift; sourceTree = "<group>"; };
@@ -222,6 +225,7 @@
 		7CF3996618809243839D3286 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				315A815A66619639414376B7 /* ActivationTests.swift */,
 				F7371A10AD3D9912B1D13DAD /* CoreTests.swift */,
 				B44800BED91AD7CCC630453F /* NativeEnglishKeyFrames.json */,
 				FCB567B636EDC09E6120444F /* PerformanceTests.swift */,
@@ -524,6 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B957475A1F8FD94A08B2772 /* ActivationTests.swift in Sources */,
 				D5C86FC368C020BA28E943C2 /* CandidateList.swift in Sources */,
 				D28C5091D38D043F4C38D8BF /* CodeTable.swift in Sources */,
 				F1C4F6EBD8C0735A3DF0DBEB /* CompositionEngine.swift in Sources */,
@@ -533,6 +538,7 @@
 				CD6F39F7C359BA053CB4719A /* KeyboardButton.swift in Sources */,
 				7A9E0B24BB9D534536D378F4 /* KeyboardRow.swift in Sources */,
 				261C975A55583E0C69D40352 /* KeyboardView.swift in Sources */,
+				7468F86DB3E17785FD7605FE /* KeyboardViewController.swift in Sources */,
 				F1ECAF3B3C0DC0200131098D /* NativeKeyboardGeometry.swift in Sources */,
 				8009A9EBF7EBFFC0C823B96C /* NativeKeyboardTypography.swift in Sources */,
 				9855321D770549F4FE184034 /* PackedCodeTable.swift in Sources */,
@@ -691,7 +697,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 20;
+				CURRENT_PROJECT_VERSION = 21;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -723,6 +729,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Keyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -847,6 +854,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Keyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -893,7 +901,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 20;
+				CURRENT_PROJECT_VERSION = 21;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

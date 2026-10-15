@@ -4,7 +4,7 @@ The keyboard uses the dictionary shipped with the app. Updating the app updates 
 
 ## Bundled dictionary path
 
-- App and keyboard each load `boshiamy.bin` from their own bundle. A small process-local cache avoids decoding it again on every appearance.
+- App and keyboard each load `boshiamy.bin` from their own bundle. A small process-local cache avoids decoding it again. Each input controller installs the immutable dictionary once in `viewDidLoad`, preserving its candidate/layout caches on reappearance.
 - Removed the file picker, async import model, CIN/Rime/TSV parser, JSON decoder/writer, custom-table store, file-identity checks and import-specific errors.
 - Removed App Group entitlements, shared-container configuration and Files sharing/open-in-place flags. Old custom files are never read; both the host app and extension use the bundled table after upgrade.
 - `CodeTable` keeps input/candidate validation and derived metadata. Imported JSON schema/version/Codable support is gone. Independent canonical JSON decoding exists only in tests to verify packed data.

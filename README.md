@@ -70,3 +70,5 @@ python3 scripts/prepare_homophones.py
 米鍵盤為獨立開發工具，非行易官方產品，與行易無隸屬、合作或背書關係。「嘸蝦米／Boshiamy」僅用於說明字碼相容性，相關商標屬於各自權利人；本專案未提供所有官方指令或字碼功能。沒有快打自動上字、萬用碼、聯想詞或字頻學習。密碼、電話欄位及禁止第三方鍵盤的 App 可能由 iOS 改用系統鍵盤。
 
 自寫程式碼採 [MIT License](LICENSE)。第三方字碼表、Unicode 資料及其聲明保留原授權；MIT 不會取代這些資料的授權條款。相關商標屬於各自權利人。
+
+1.0（21）移除 controller 再次出現時的字表重裝，新增 100 ms 的 App 啟用／重新啟用回歸測試，保留原生 English 與地球鍵選單。這個門檻不包含系統切換或實體顯示時間；原生 touch-to-display 200／100 ms 尚未驗證。[最佳化、前後數據與限制](Documentation/SWITCH-SPEED.md)。
