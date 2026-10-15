@@ -8,7 +8,7 @@ settings:
     SWIFT_VERSION: "5.0"
     TARGETED_DEVICE_FAMILY: "1,2"
     CODE_SIGN_STYLE: Automatic
-    CURRENT_PROJECT_VERSION: 19
+    CURRENT_PROJECT_VERSION: 20
     MARKETING_VERSION: "1.0"
     ENABLE_USER_SCRIPT_SANDBOXING: YES
     DEVELOPMENT_TEAM: ""
@@ -92,10 +92,31 @@ targets:
       base:
         GENERATE_INFOPLIST_FILE: YES
         PRODUCT_BUNDLE_IDENTIFIER: com.shh.boshiamy.uitests
+  KeyboardSwitchHost:
+    type: application
+    platform: iOS
+    sources: [Tests/SwitchHost]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shh.boshiamy.switch-host
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Keyboard Switch Test Host
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+  KeyboardSwitchUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [Tests/SwitchingUITests.swift]
+    dependencies:
+      - target: KeyboardSwitchHost
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.shh.boshiamy.switch-uitests
+        TEST_TARGET_NAME: KeyboardSwitchHost
 schemes:
   Boshiamy:
     build:
       targets:
         Boshiamy: all
     test:
-      targets: [BoshiamyTests, BoshiamyUITests]
+      targets: [BoshiamyTests, BoshiamyUITests, KeyboardSwitchUITests]

@@ -35,6 +35,7 @@
 		833B7868065ADDE4961ECD5F /* homophones.json in Resources */ = {isa = PBXBuildFile; fileRef = 331ADC305E3328CA9FAD98ED /* homophones.json */; };
 		86E3515124024A0385805428 /* HomophoneTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C16E252633E98B9DE587AC /* HomophoneTable.swift */; };
 		87FC4330E2266E3A2BB49DAB /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB567B636EDC09E6120444F /* PerformanceTests.swift */; };
+		8CA73FBBF988DD6C9665B978 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771848BFE5AF0F6ADA8D8BC8 /* App.swift */; };
 		91D9D11D1E2D03F077E6B545 /* TableStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8105E6816C4482A79BE0CE /* TableStore.swift */; };
 		92438024AB76C06C5A56048E /* NativeEnglishKeyFrames.json in Resources */ = {isa = PBXBuildFile; fileRef = B44800BED91AD7CCC630453F /* NativeEnglishKeyFrames.json */; };
 		963A84CE3A8D020C01B2DAED /* KeyPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8713978EABCD7541BC9AAC /* KeyPreview.swift */; };
@@ -49,6 +50,7 @@
 		ABDC6C36D9FB039279B8BA7D /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03B5924CE350CF17FB8B86 /* KeyboardView.swift */; };
 		B03BC3A69754912EFBF84DDE /* HomophoneTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C16E252633E98B9DE587AC /* HomophoneTable.swift */; };
 		B6058930C9AC7933C3EF054A /* KeyboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0BA4B903405550355721E /* KeyboardRow.swift */; };
+		B651650552BE630362A44A75 /* SwitchingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827126D3BA828E0C1556F572 /* SwitchingUITests.swift */; };
 		B6A6F098C403322A8DDC7A10 /* Unicode-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5D5B797194F73E27CC6CE3B /* Unicode-LICENSE.txt */; };
 		B6E62AFDF04AE03B5C5CF8A9 /* CandidateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FDA368BAD5D6CD9929DB60 /* CandidateList.swift */; };
 		BB0D37B10AD95BBA1255928C /* KeyPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8713978EABCD7541BC9AAC /* KeyPreview.swift */; };
@@ -68,6 +70,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		657A5FEEF9F9C3D49085CB5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8385A199971B46401C75C7A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5282E667F2082B66376BC2FD;
+			remoteInfo = KeyboardSwitchHost;
+		};
 		7A089BDAEB27B663C7B0B4F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8385A199971B46401C75C7A9 /* Project object */;
@@ -111,12 +120,15 @@
 		4487DE7ECCD4B9E4ADE86D46 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		5AF0BA4B903405550355721E /* KeyboardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardRow.swift; sourceTree = "<group>"; };
 		76FDA368BAD5D6CD9929DB60 /* CandidateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateList.swift; sourceTree = "<group>"; };
+		771848BFE5AF0F6ADA8D8BC8 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		7D1CEC97447FFF95A0BA4ADB /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		7E185697890C01DB7BD2FA8F /* BoshiamyKeyboard.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = BoshiamyKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		827126D3BA828E0C1556F572 /* SwitchingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingUITests.swift; sourceTree = "<group>"; };
 		8393C464733C0B2E370A45BB /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
 		882CF5955CC3CBB76DC6A261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9C71441E8A8FA2D94BF32570 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
 		A3E6329F27CD76C43FDEF6D2 /* NativeKeyboardTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeKeyboardTypography.swift; sourceTree = "<group>"; };
+		A3EAFFA019C852B66C8EDAFD /* KeyboardSwitchHost.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = KeyboardSwitchHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF3BFFB0BBBE8636B829066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B0B09F93B7304CCAFAD6B6F1 /* BoshiamyUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BoshiamyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44800BED91AD7CCC630453F /* NativeEnglishKeyFrames.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NativeEnglishKeyFrames.json; sourceTree = "<group>"; };
@@ -127,6 +139,7 @@
 		DD984CF5ECC38B4C9B62BACA /* UITestFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestFixtures.swift; sourceTree = "<group>"; };
 		ED8105E6816C4482A79BE0CE /* TableStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableStore.swift; sourceTree = "<group>"; };
 		EF8713978EABCD7541BC9AAC /* KeyPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPreview.swift; sourceTree = "<group>"; };
+		F1F22F3794A87F65ABA417D5 /* KeyboardSwitchUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = KeyboardSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F3289FAA76B3390A3612A1 /* CodeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTable.swift; sourceTree = "<group>"; };
 		F5D5B797194F73E27CC6CE3B /* Unicode-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Unicode-LICENSE.txt"; sourceTree = "<group>"; };
 		F7371A10AD3D9912B1D13DAD /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
@@ -154,6 +167,7 @@
 				8E443B8FD072501A4FC414A3 /* KeyboardUI */,
 				1C46424987D97FC8F55FFE0A /* Resources */,
 				048884AC6D4FA1DA56E26F98 /* Shared */,
+				6A317356433A0E34F0A5993A /* SwitchHost */,
 				7CF3996618809243839D3286 /* Tests */,
 				44289C03ADF3ECECD2AC9FE0 /* Products */,
 			);
@@ -177,8 +191,19 @@
 				7E185697890C01DB7BD2FA8F /* BoshiamyKeyboard.appex */,
 				D70FBFB1F4277D694DDBFE19 /* BoshiamyTests.xctest */,
 				B0B09F93B7304CCAFAD6B6F1 /* BoshiamyUITests.xctest */,
+				A3EAFFA019C852B66C8EDAFD /* KeyboardSwitchHost.app */,
+				F1F22F3794A87F65ABA417D5 /* KeyboardSwitchUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6A317356433A0E34F0A5993A /* SwitchHost */ = {
+			isa = PBXGroup;
+			children = (
+				771848BFE5AF0F6ADA8D8BC8 /* App.swift */,
+			);
+			name = SwitchHost;
+			path = Tests/SwitchHost;
 			sourceTree = "<group>";
 		};
 		74C46DC1414646710666C400 /* App */ = {
@@ -200,6 +225,7 @@
 				F7371A10AD3D9912B1D13DAD /* CoreTests.swift */,
 				B44800BED91AD7CCC630453F /* NativeEnglishKeyFrames.json */,
 				FCB567B636EDC09E6120444F /* PerformanceTests.swift */,
+				827126D3BA828E0C1556F572 /* SwitchingUITests.swift */,
 				2EDB28B1DA033CF69A8769B3 /* UITests.swift */,
 			);
 			path = Tests;
@@ -249,6 +275,23 @@
 			productReference = D70FBFB1F4277D694DDBFE19 /* BoshiamyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5282E667F2082B66376BC2FD /* KeyboardSwitchHost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EFF347E30351C4AD0974A3 /* Build configuration list for PBXNativeTarget "KeyboardSwitchHost" */;
+			buildPhases = (
+				25830453D96B7A14CD1A0DF5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardSwitchHost;
+			packageProductDependencies = (
+			);
+			productName = KeyboardSwitchHost;
+			productReference = A3EAFFA019C852B66C8EDAFD /* KeyboardSwitchHost.app */;
+			productType = "com.apple.product-type.application";
+		};
 		75D7C6B64B1FF23AB75DFEDC /* BoshiamyKeyboard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D27D521D70C26F53089C7AE5 /* Build configuration list for PBXNativeTarget "BoshiamyKeyboard" */;
@@ -266,6 +309,24 @@
 			productName = BoshiamyKeyboard;
 			productReference = 7E185697890C01DB7BD2FA8F /* BoshiamyKeyboard.appex */;
 			productType = "com.apple.product-type.app-extension";
+		};
+		813385CAB9B4FA80B0C7C7EB /* KeyboardSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140B34814524BEBB5B08A093 /* Build configuration list for PBXNativeTarget "KeyboardSwitchUITests" */;
+			buildPhases = (
+				A4A906814C90F50292F6A5B6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9310B111DA3CBA3817250E3 /* PBXTargetDependency */,
+			);
+			name = KeyboardSwitchUITests;
+			packageProductDependencies = (
+			);
+			productName = KeyboardSwitchUITests;
+			productReference = F1F22F3794A87F65ABA417D5 /* KeyboardSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		85F81B4A203B0DFFFF018EE0 /* BoshiamyUITests */ = {
 			isa = PBXNativeTarget;
@@ -319,9 +380,18 @@
 						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
+					5282E667F2082B66376BC2FD = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
 					75D7C6B64B1FF23AB75DFEDC = {
 						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
+					};
+					813385CAB9B4FA80B0C7C7EB = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5282E667F2082B66376BC2FD;
 					};
 					85F81B4A203B0DFFFF018EE0 = {
 						DevelopmentTeam = "";
@@ -352,6 +422,8 @@
 				75D7C6B64B1FF23AB75DFEDC /* BoshiamyKeyboard */,
 				4BDD223FFF5CE0AED0282AAA /* BoshiamyTests */,
 				85F81B4A203B0DFFFF018EE0 /* BoshiamyUITests */,
+				5282E667F2082B66376BC2FD /* KeyboardSwitchHost */,
+				813385CAB9B4FA80B0C7C7EB /* KeyboardSwitchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -409,6 +481,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25830453D96B7A14CD1A0DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA73FBBF988DD6C9665B978 /* App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1879DC4F3C8FAB0E3CA9884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,6 +509,14 @@
 				A1FA3B41F468122A0531434D /* PrivacyPolicyView.swift in Sources */,
 				D241915A5B874B1CE19AA7CA /* TableStore.swift in Sources */,
 				F8544FD48D9E7C90816A9B5B /* UITestFixtures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A906814C90F50292F6A5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B651650552BE630362A44A75 /* SwitchingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,9 +574,32 @@
 			target = AA633E4F0F3E5298684D8090 /* Boshiamy */;
 			targetProxy = 7A089BDAEB27B663C7B0B4F1 /* PBXContainerItemProxy */;
 		};
+		D9310B111DA3CBA3817250E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5282E667F2082B66376BC2FD /* KeyboardSwitchHost */;
+			targetProxy = 657A5FEEF9F9C3D49085CB5E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		19DE049EDE3FA8CA76D85ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Keyboard Switch Test Host";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shh.boshiamy.switch-host";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		28B657EE228438B545E4B148 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -505,6 +616,23 @@
 				TEST_TARGET_NAME = Boshiamy;
 			};
 			name = Release;
+		};
+		444F7DCF3D732BFCA84710A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shh.boshiamy.switch-uitests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyboardSwitchHost;
+			};
+			name = Debug;
 		};
 		48F970277274B3CFF87B2913 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -563,7 +691,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 20;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -625,6 +753,41 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shh.boshiamy;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6ED720BAD7F134590CF7B4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Keyboard Switch Test Host";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shh.boshiamy.switch-host";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A7B8E7A424B6680275E4E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shh.boshiamy.switch-uitests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyboardSwitchHost;
 			};
 			name = Release;
 		};
@@ -730,7 +893,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 20;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -776,6 +939,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
+		140B34814524BEBB5B08A093 /* Build configuration list for PBXNativeTarget "KeyboardSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444F7DCF3D732BFCA84710A6 /* Debug */,
+				9A7B8E7A424B6680275E4E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		982B7467C4E45582F20D0A38 /* Build configuration list for PBXProject "Boshiamy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -799,6 +971,15 @@
 			buildConfigurations = (
 				AE3BA5295297C19665A8FEAC /* Debug */,
 				B8FE934E6266C0771A728130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4EFF347E30351C4AD0974A3 /* Build configuration list for PBXNativeTarget "KeyboardSwitchHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DE049EDE3FA8CA76D85ABA /* Debug */,
+				6ED720BAD7F134590CF7B4E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

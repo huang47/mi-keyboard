@@ -34,3 +34,9 @@ Three focused iPad cases cover bundled-only home/relaunch, typing/mode switching
 ## Version 1.0 (19)
 
 Only version/build metadata changed. The 27 iPhone and three iPad cases are reused from build 18 with identical app, keyboard, engine and resource bytes. The Release suite (39) and fixed-baseline suite (10) were rerun for build 19. Product source checksums are recorded in [source-1.0.json](source-1.0.json).
+
+## Version 1.0 (20): three real keyboards
+
+The separate `KeyboardSwitchUITests` target adds three Release integration cases using English (US), Emoji and 米鍵盤. Its `KeyboardSwitchHost` is an autofocus native UITextField app with autocorrection off; it is excluded from the shipping app and archive. The cases cover all three real picker entries, native English insertion, composition cancellation and continued bundled-table input; 40 warm switch observations; and one externally prepared first activation with input verification. No mock keyboard or fake input proxy is used.
+
+[Commands, all measurements and limits](SWITCH-LATENCY.md). These three cases, 39 Release unit cases and the ten fixed-build-5 checks passed. The existing 27-case main UI suite and three iPad cases retain their previous evidence; they were not rerun for this tests-only change. All 25 shipping app/keyboard/engine/resource source files match 1.0 (19); only build metadata changes to 20. The benchmark runner now retains the new test-only source references in its frozen project without adding them to the measured unit target.

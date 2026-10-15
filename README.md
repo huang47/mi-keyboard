@@ -45,6 +45,8 @@ xcodebuild -project Boshiamy.xcodeproj -scheme Boshiamy \
 
 ## 測試與效能
 
+1.0（20）新增三項真實三鍵盤整合測試（English、Emoji、米鍵盤），包含 40 筆暖身切換量測與一筆首次啟動觀察。使用獨立原生 UITextField 測試宿主，不會打包進正式 App；切換行為未變更。[完整數據、指令與限制](Documentation/SWITCH-LATENCY.md)。
+
 1.0（19）只修改版本／build metadata，功能與 build 18 相同。39 項 Release、10 項固定基準檢查重跑通過；27 項 iPhone UI 與 3 項 iPad UI 沿用相同產品來源的 build 18 證據。
 
 - [測試與覆蓋範圍](Documentation/TESTING.md)

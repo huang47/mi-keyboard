@@ -127,9 +127,12 @@ def run(simulator, output_directory, source_root):
     target = re.sub(r"    sources:.*\n", "    sources: [Tests, Shared, KeyboardUI, Resources]\n", target)
     project = project[:start] + target + project[end:]
     project = project.replace("targets: [BoshiamyTests, BoshiamyUITests]", "targets: [BoshiamyTests]")
-    # The UI target is not built by this scheme; retain its source reference for XcodeGen.
+    project = project.replace("targets: [BoshiamyTests, BoshiamyUITests, KeyboardSwitchUITests]", "targets: [BoshiamyTests]")
+    # UI targets are not built by this scheme; keep their source references valid for XcodeGen.
     shutil.copy2(ROOT / "Tests/UITests.swift", tests)
-    project = project.replace("sources: [Tests, Shared, KeyboardUI, Resources]", "sources:\n      - path: Tests\n        excludes: [UITests.swift]\n      - Shared\n      - KeyboardUI\n      - Resources")
+    shutil.copy2(ROOT / "Tests/SwitchingUITests.swift", tests)
+    shutil.copytree(ROOT / "Tests/SwitchHost", tests / "SwitchHost")
+    project = project.replace("sources: [Tests, Shared, KeyboardUI, Resources]", "sources:\n      - path: Tests\n        excludes: [UITests.swift, SwitchingUITests.swift, SwitchHost]\n      - Shared\n      - KeyboardUI\n      - Resources")
     (snapshot / "project.yml").write_text(project)
     subprocess.run(["xcodegen", "generate"], cwd=snapshot, check=True, capture_output=True)
     manifest = {

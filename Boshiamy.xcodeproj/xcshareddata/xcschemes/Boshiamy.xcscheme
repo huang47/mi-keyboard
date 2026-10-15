@@ -61,6 +61,17 @@
                ReferencedContainer = "container:Boshiamy.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "813385CAB9B4FA80B0C7C7EB"
+               BuildableName = "KeyboardSwitchUITests.xctest"
+               BlueprintName = "KeyboardSwitchUITests"
+               ReferencedContainer = "container:Boshiamy.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <CommandLineArguments>
       </CommandLineArguments>
