@@ -10,7 +10,7 @@
 
 所有輸入處理都在裝置上完成，不記錄或上傳輸入內容，也不要求「允許完整取用」。字碼表隨 App 提供與更新，不需要匯入或管理外部檔案。
 
-[使用說明與支援](https://theonlyperson.com/boshiamy) · [隱私權政策](https://theonlyperson.com/boshiamy#privacy)
+[使用說明與支援](https://theonlyperson.com/mi-keyboard) · [隱私權政策](https://theonlyperson.com/mi-keyboard#privacy)
 
 <img src="Documentation/keyboard.png" width="300" alt="米鍵盤 App 內練習：輸入 HX 後的愛字候選、數字列與 QWERTY 鍵盤">
 
@@ -31,6 +31,8 @@
 需要 macOS、Xcode 與 XcodeGen；已在 Xcode 26／iOS 26.5 Simulator 驗證。沒有第三方 runtime 套件相依。
 
 ```sh
+git clone https://github.com/huang47/mi-keyboard.git
+cd mi-keyboard
 xcodegen generate
 xcodebuild -project Boshiamy.xcodeproj -scheme Boshiamy \
   -configuration Debug -sdk iphonesimulator \
@@ -63,6 +65,6 @@ python3 scripts/prepare_homophones.py
 
 ## 限制與授權
 
-本專案為獨立開發工具，非行易官方產品，未提供所有官方指令或字碼功能。沒有快打自動上字、萬用碼、聯想詞或字頻學習。密碼、電話欄位及禁止第三方鍵盤的 App 可能由 iOS 改用系統鍵盤。
+米鍵盤為獨立開發工具，非行易官方產品，與行易無隸屬、合作或背書關係。「嘸蝦米／Boshiamy」僅用於說明字碼相容性，相關商標屬於各自權利人；本專案未提供所有官方指令或字碼功能。沒有快打自動上字、萬用碼、聯想詞或字頻學習。密碼、電話欄位及禁止第三方鍵盤的 App 可能由 iOS 改用系統鍵盤。
 
 自寫程式碼採 [MIT License](LICENSE)。第三方字碼表、Unicode 資料及其聲明保留原授權；MIT 不會取代這些資料的授權條款。相關商標屬於各自權利人。

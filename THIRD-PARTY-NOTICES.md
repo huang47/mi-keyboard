@@ -21,3 +21,7 @@ The MIT license at the repository root applies to this project's original code a
 - Unicode readings include regional and historical pronunciations; this is not the official Boshiamy homophone dictionary.
 
 The performance baseline is this project's own historical Swift implementation from shipped build 5, retained unchanged for comparison. It is not Fcitx5/libime source code.
+
+## Product names and trademarks
+
+米鍵盤 (Mi Keyboard) is independently developed and is not affiliated with, sponsored by, or endorsed by the vendor of 嘸蝦米 / Boshiamy. References to those names describe character-code compatibility or identify upstream data; they do not identify this project as an official product. All third-party trademarks remain the property of their respective owners.
