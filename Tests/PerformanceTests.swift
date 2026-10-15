@@ -126,6 +126,34 @@ final class PerformanceTests: XCTestCase {
         XCTAssertEqual(globe.accessibilityValue, "英文")
     }
 
+    @MainActor
+    func testFirstCaseChangePreservesCaptionColorAndReusesVisibleCaptions() throws {
+        let keyboard = makeKeyboard()
+        let a = try XCTUnwrap(button("key-a", in: keyboard))
+        a.setTitleColor(.systemRed, for: .normal)
+        func visible(_ title: String) throws -> UILabel {
+            let labels = a.subviews.compactMap { $0 as? UILabel }.filter { !$0.isHidden && $0.text == title }
+            XCTAssertEqual(labels.count, 1)
+            let label = try XCTUnwrap(labels.first)
+            XCTAssertEqual(label.textColor, .systemRed)
+            XCTAssertFalse(label.isAccessibilityElement)
+            XCTAssertFalse(label.isUserInteractionEnabled)
+            return label
+        }
+        let uppercase = try visible("A")
+        try XCTUnwrap(button("globe", in: keyboard)).sendActions(for: .touchUpInside)
+        a.sendActions(for: .touchUpInside) // First English letter consumes one-shot shift.
+        let lowercase = try visible("a")
+        XCTAssertEqual(lowercase.font.pointSize, 25)
+        keyboard.pressShift(at: 1)
+        XCTAssertTrue(try visible("A") === uppercase)
+        a.sendActions(for: .touchUpInside)
+        XCTAssertTrue(try visible("a") === lowercase)
+        for label in [uppercase, lowercase] {
+            XCTAssertTrue(label.layer.animationKeys()?.isEmpty ?? true)
+        }
+    }
+
     private func report(_ name: String, iterations: Int = 21, operation: () throws -> Void) rethrows {
         try operation() // Warm code and framework caches before collecting samples.
         var samples: [Double] = []
@@ -452,8 +480,9 @@ final class PerformanceTests: XCTestCase {
         let a = try XCTUnwrap(button("key-a", in: keyboard))
         let idleKeyHeight = a.bounds.height
         XCTAssertEqual(a.title(for: .normal), "A")
-        XCTAssertEqual(a.titleLabel?.font.pointSize, 22)
-        XCTAssertFalse(a.titleLabel?.font.fontDescriptor.symbolicTraits.contains(.traitBold) == true)
+        let caption = try XCTUnwrap(a.subviews.compactMap { $0 as? UILabel }.first { !$0.isHidden && $0.text == "A" })
+        XCTAssertEqual(caption.font.pointSize, 22)
+        XCTAssertFalse(caption.font.fontDescriptor.symbolicTraits.contains(.traitBold))
         XCTAssertFalse(keyboard.isShowingComposition)
         a.sendActions(for: .touchUpInside)
         keyboard.layoutIfNeeded()

@@ -2,8 +2,15 @@ import XCTest
 import UIKit
 
 final class ActivationTests: XCTestCase {
+    private func requireReleasePerformanceBuild() throws {
+        #if DEBUG
+        throw XCTSkip("Simulator timing budgets require the Release configuration")
+        #endif
+    }
+
     @MainActor
     func testActivationMainThreadWorkStaysWithin100Milliseconds() throws {
+        try requireReleasePerformanceBuild()
         let url = try XCTUnwrap(Bundle(for: Self.self).url(forResource: "boshiamy", withExtension: "bin"))
         var elapsed: [Double] = []
         for _ in 0..<21 {
@@ -26,6 +33,9 @@ final class ActivationTests: XCTestCase {
         attachment.name = "keyboard-activation-main-thread"
         attachment.lifetime = .keepAlways
         add(attachment)
+        let sorted = elapsed.sorted()
+        XCTAssertLessThanOrEqual(sorted[10], 11.75, "Fixed Simulator startup improvement budget: at least 10% below build 21's 13.073 ms median")
+        XCTAssertLessThanOrEqual(sorted[19], 13.85, "Fixed Simulator startup improvement budget: at least 10% below build 21's 15.384 ms p95")
     }
 
     @MainActor

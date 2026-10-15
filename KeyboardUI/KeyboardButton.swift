@@ -4,7 +4,7 @@ import UIKit
 final class KeyboardButton: UIButton {
     private let surface = CAGradientLayer()
     private let caption = UILabel()
-    private let alternateCaption = UILabel()
+    private var alternateCaption: UILabel?
     private var keyboardTitle: String?
     private var compactTypography = false
     private var largeTypography = false
@@ -20,11 +20,19 @@ final class KeyboardButton: UIButton {
         if caption.text == nil || caption.text == title {
             caption.text = title
             caption.isHidden = false
-            alternateCaption.isHidden = true
+            alternateCaption?.isHidden = true
         } else {
-            if alternateCaption.text != title { alternateCaption.text = title }
+            let alternate: UILabel
+            if let cached = alternateCaption { alternate = cached }
+            else {
+                alternate = UILabel()
+                configureCaption(alternate)
+                alternate.textColor = caption.textColor
+                alternateCaption = alternate
+            }
+            if alternate.text != title { alternate.text = title }
             caption.isHidden = true
-            alternateCaption.isHidden = false
+            alternate.isHidden = false
         }
         updateCaptionFonts()
         updateCaptionFrames()
@@ -36,7 +44,7 @@ final class KeyboardButton: UIButton {
 
     override func setTitleColor(_ color: UIColor?, for state: UIControl.State) {
         super.setTitleColor(color, for: state)
-        if state == .normal { caption.textColor = color; alternateCaption.textColor = color }
+        if state == .normal { caption.textColor = color; alternateCaption?.textColor = color }
     }
 
     var input = ""
@@ -45,14 +53,8 @@ final class KeyboardButton: UIButton {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        // Reuse both case captions to avoid title crossfades and repeated glyph drawing.
-        for label in [caption, alternateCaption] {
-            label.textAlignment = .center
-            label.isUserInteractionEnabled = false
-            label.isAccessibilityElement = false
-            addSubview(label)
-        }
-        alternateCaption.isHidden = true
+        // Build the alternate caption only on first use, then cache both cases.
+        configureCaption(caption)
         surface.colors = [UIColor.white.cgColor, UIColor.white.cgColor]
         // A key press must change color in this event, not start a default opacity animation.
         surface.actions = ["opacity": NSNull(), "colors": NSNull()]
@@ -71,9 +73,8 @@ final class KeyboardButton: UIButton {
 
     required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
 
-    // Configure after UIButton has finished initializing its title label.
+    // Captions own their fonts; avoid creating an unused UIKit title label.
     func configureAppearance() {
-        titleLabel?.font = .systemFont(ofSize: 22, weight: .regular)
         updateCaptionFonts()
         setTitleColor(.label, for: .normal)
         tintColor = .label
@@ -93,20 +94,33 @@ final class KeyboardButton: UIButton {
         if surface.colors as? [CGColor] != colors { surface.colors = colors }
     }
 
+    private func configureCaption(_ label: UILabel) {
+        label.textAlignment = .center
+        label.isUserInteractionEnabled = false
+        label.isAccessibilityElement = false
+        addSubview(label)
+    }
+
     private func updateCaptionFonts() {
-        for label in [caption, alternateCaption] {
-            let font = NativeKeyboardTypography.font(for: label.text, compact: compactTypography)
-            if label.font != font { label.font = font }
-        }
+        updateCaptionFont(caption)
+        if let alternateCaption { updateCaptionFont(alternateCaption) }
+    }
+
+    private func updateCaptionFont(_ label: UILabel) {
+        let font = NativeKeyboardTypography.font(for: label.text, compact: compactTypography)
+        if label.font != font { label.font = font }
     }
 
     private func updateCaptionFrames() {
-        for label in [caption, alternateCaption] {
-            let offset = NativeKeyboardTypography.offset(for: label.text, compact: compactTypography, large: largeTypography)
-            let center = CGPoint(x: bounds.midX + offset.x, y: bounds.midY + offset.y)
-            if label.bounds.size != bounds.size { label.bounds = bounds }
-            if label.center != center { label.center = center }
-        }
+        updateCaptionFrame(caption)
+        if let alternateCaption { updateCaptionFrame(alternateCaption) }
+    }
+
+    private func updateCaptionFrame(_ label: UILabel) {
+        let offset = NativeKeyboardTypography.offset(for: label.text, compact: compactTypography, large: largeTypography)
+        let center = CGPoint(x: bounds.midX + offset.x, y: bounds.midY + offset.y)
+        if label.bounds.size != bounds.size { label.bounds = bounds }
+        if label.center != center { label.center = center }
     }
 
     override func layoutSubviews() {

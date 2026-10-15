@@ -72,3 +72,5 @@ python3 scripts/prepare_homophones.py
 自寫程式碼採 [MIT License](LICENSE)。第三方字碼表、Unicode 資料及其聲明保留原授權；MIT 不會取代這些資料的授權條款。相關商標屬於各自權利人。
 
 1.0（21）移除 controller 再次出現時的字表重裝，新增 100 ms 的 App 啟用／重新啟用回歸測試，保留原生 English 與地球鍵選單。這個門檻不包含系統切換或實體顯示時間；原生 touch-to-display 200／100 ms 尚未驗證。[最佳化、前後數據與限制](Documentation/SWITCH-SPEED.md)。
+
+1.0（22）減少字鍵建立時未使用的標籤配置。同一 Simulator 的 Release 啟動中位數 13.09 → 10.70 ms（快 18.3%），p95 15.40 → 13.03 ms；包含真實字表解碼與排版。42 項 Release、3 項三鍵盤 UI、7 項練習 UI 與固定 build 5 門檻通過。保留原生 English 與系統地球選單；這不是完整原生切換的 200／100 ms 宣稱。[前後對照與回歸門檻](Documentation/SWITCH-IMPROVEMENT.md)。

@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "build": "22",
+  "comparisonBuild": "21",
+  "changedShippingSourceFiles": [
+    "KeyboardUI/KeyboardButton.swift"
+  ],
+  "unchangedShippingSourceFiles": 24,
+  "testHostExcludedFromShippingApp": true,
+  "sha256": {
+    "App/UITestFixtures.swift": "170e0f56b33d00c8e4af771ca369469e7990a8f187e0392564507f436be251a4",
+    "App/PracticeView.swift": "c16966eb8716059da8ee2fae593af685fd19e732dbb6297980d24e48fd13bb2a",
+    "App/BoshiamyApp.swift": "73e2e32313faa2dbabc70033535215eedb03d82f2def3151f3d7bf975372a5c2",
+    "App/Info.plist": "2f86bbdcf9ff3d14165393f137c12402f09891fd105e28aef24bd5585cfe8954",
+    "App/PrivacyPolicyView.swift": "b7734df0d3972b05912bd9e1864c04cf49b9d1e5de8b4cf7f84c71eaeeba03cb",
+    "App/Assets.xcassets/AppIcon.appiconset/Contents.json": "96a50e606d8ee91b2191159d58103a3855c356fdf2aaf7ed1fcec0451933e9dc",
+    "App/Assets.xcassets/AppIcon.appiconset/AppIcon.png": "8cb400eec79f231fe99f01005eeaf9a2e4f9afa403c9f41e0e8af8e33eff4a11",
+    "Keyboard/KeyboardViewController.swift": "7488e7bc830f878e8d3d1fd014efabfe313073aa437cd547f453b21a33551f54",
+    "Keyboard/Info.plist": "b546887d9fe29a63fc875163020aad33a9c1acbe29ee954a4df8160fa3c55a9e",
+    "KeyboardUI/KeyPreview.swift": "dc71f2c52ec9675817aa19a292253359fcf060f81ac7134117c829a19e6152de",
+    "KeyboardUI/NativeKeyboardGeometry.swift": "584c58d85afc76a05fba05ef8a5c2bf4eb96fe6690ffe7363f3c0e020351707b",
+    "KeyboardUI/KeyboardRow.swift": "aece6bed6544816f99663881dcf10c94bc87e17d7ed8c7a8491a278ccb072ceb",
+    "KeyboardUI/NativeKeyboardTypography.swift": "f2e5d74b92897b121b53c8bbb662d9fbf151b5451fd10b5ff272450890116e1e",
+    "KeyboardUI/KeyboardView.swift": "8ec0276924f298d39290b749f4b81fb07c8c1e5d6a757cbf844239af4ca4dcfb",
+    "KeyboardUI/KeyboardButton.swift": "6634aed9de188b615c0d665de993013a75523e4ff8db1cc87225fa9e9f799965",
+    "KeyboardUI/CandidateList.swift": "fe93a802968a15c1cd55d371b5f230b420957be74b72a8119454393be51317a6",
+    "Shared/CodeTable.swift": "0c9498417d17858ee9d63aa1da37ddb50ad2b1c924a3ea7cec84260641e8047c",
+    "Shared/PackedCodeTable.swift": "8360218362c31e914e26686d9bfc59103058c1bd99b28981c48ea18c4e960246",
+    "Shared/TableStore.swift": "a6d7a88301f49cf91e7c7da52fe24eda7e256b666636941a38bae754088d9c0f",
+    "Shared/CompositionEngine.swift": "02abf690fecb861955abf183ba348a6e381294a21bd4d9db28f7155d0c85a2d7",
+    "Shared/HomophoneTable.swift": "015a968b23456f0dcc2a03eb2f35ffd6d269fccbe5b9b88f5530880563dcfa45",
+    "Resources/homophones.json": "806f135062e6fe8f8a985b73e26741798bd1eaec6406c5ed91dbf19eef98bab2",
+    "Resources/Unicode-LICENSE.txt": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+    "Resources/boshiamy.bin": "ffba913d5f0c86526d247a7b4394d595b1e66bb05a4cd8d47ef75f0118ce1b06",
+    "Resources/boshiamy.json": "8d7cc15a87f4a6ad42e81a29906aab12b6633c1ed0e7cdc0812bcc7e61f7d38b"
+  }
+}

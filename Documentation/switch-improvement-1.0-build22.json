@@ -1,0 +1,723 @@
+{
+  "schemaVersion": 1,
+  "environment": "Same dedicated iPhone 17 Pro / iOS 26.5 Simulator; Release; three real keyboards; no physical-device prerequisite",
+  "metric": "Controller construction + fresh real packed dictionary decode + activation + layout + transaction flush; OS/filesystem caches not asserted cold; not a touch-to-display metric",
+  "originalBefore": {
+    "scope": "Controller construction + fresh dictionary decode + view activation + layout + transaction flush; excludes iOS switching and physical display",
+    "rawMs": [
+      64.58395824301988,
+      15.402458258904517,
+      13.440000009723008,
+      13.289208407513797,
+      13.347083353437483,
+      13.147291727364063,
+      13.212166726589203,
+      13.194166705943644,
+      13.099916744977236,
+      13.059416669420898,
+      13.08399997651577,
+      13.078333344310522,
+      13.20045837201178,
+      13.029500027187169,
+      13.092208304442465,
+      13.082291698083282,
+      13.069874956272542,
+      13.061750098131597,
+      13.082624995149672,
+      13.04099999833852,
+      13.063333346508443
+    ],
+    "medianMs": 13.092208304442465,
+    "p95Ms": 15.402458258904517,
+    "maxMs": 64.58395824301988
+  },
+  "alternateOnly": {
+    "scope": "Controller construction + fresh dictionary decode + view activation + layout + transaction flush; excludes iOS switching and physical display",
+    "rawMs": [
+      63.04312509018928,
+      14.255583402700722,
+      12.635000050067902,
+      12.213999987579882,
+      12.160708312876523,
+      12.070750002749264,
+      12.09504168946296,
+      12.00550002977252,
+      11.997833265922964,
+      12.033374980092049,
+      12.230833410285413,
+      12.072999961674213,
+      12.025624979287386,
+      12.077916646376252,
+      12.276791618205607,
+      12.026666663587093,
+      12.0256666559726,
+      11.954583344049752,
+      11.998916743323207,
+      11.898124939762056,
+      12.016625027172267
+    ],
+    "medianMs": 12.070750002749264,
+    "p95Ms": 14.255583402700722,
+    "maxMs": 63.04312509018928
+  },
+  "candidateFirst": {
+    "scope": "Controller construction + fresh dictionary decode + view activation + layout + transaction flush; excludes iOS switching and physical display",
+    "rawMs": [
+      65.9034582786262,
+      13.037541648373008,
+      11.431458406150341,
+      11.308333370834589,
+      11.055458337068558,
+      11.113666580058634,
+      11.101791635155678,
+      11.05579175055027,
+      11.103875003755093,
+      11.05483341962099,
+      11.35016675107181,
+      11.425541713833809,
+      11.147874989546835,
+      11.193833313882351,
+      11.14299998153001,
+      11.599500081501901,
+      10.903208400122821,
+      10.852833394892514,
+      10.738124954514205,
+      10.7357082888484,
+      10.679166647605598
+    ],
+    "medianMs": 11.113666580058634,
+    "p95Ms": 13.037541648373008,
+    "maxMs": 65.9034582786262
+  },
+  "candidateRepeat": {
+    "scope": "Controller construction + fresh dictionary decode + view activation + layout + transaction flush; excludes iOS switching and physical display",
+    "rawMs": [
+      66.06300000566989,
+      13.11712502501905,
+      11.148624937050045,
+      10.788333253003657,
+      10.839875089004636,
+      10.637291590683162,
+      10.72433334775269,
+      10.847625089809299,
+      10.660083265975118,
+      10.62254176940769,
+      10.671500000171363,
+      10.618250002153218,
+      10.535166715271771,
+      10.635374928824604,
+      10.534208384342492,
+      10.635458282195032,
+      10.704666608944535,
+      10.546125005930662,
+      10.537124937400222,
+      10.708083398640156,
+      10.522791766561568
+    ],
+    "medianMs": 10.660083265975118,
+    "p95Ms": 13.11712502501905,
+    "maxMs": 66.06300000566989
+  },
+  "originalRevertControl": {
+    "scope": "Controller construction + fresh dictionary decode + view activation + layout + transaction flush; excludes iOS switching and physical display",
+    "rawMs": [
+      64.02866670396179,
+      15.313999960198998,
+      13.288250076584518,
+      13.27112503349781,
+      13.26779171358794,
+      13.17783328704536,
+      13.089625048451126,
+      13.02083337213844,
+      12.984000029973686,
+      13.104624929837883,
+      12.981625040993094,
+      13.108166633173823,
+      13.116583344526589,
+      13.040041667409241,
+      12.987708323635161,
+      12.972499942407012,
+      12.975333258509636,
+      13.064958387985826,
+      13.034083298407495,
+      13.005374930799007,
+      12.995250057429075
+    ],
+    "medianMs": 13.064958387985826,
+    "p95Ms": 15.313999960198998,
+    "maxMs": 64.02866670396179
+  },
+  "candidateFinalBuild22": {
+    "scope": "Controller construction + fresh dictionary decode + view activation + layout + transaction flush; excludes iOS switching and physical display",
+    "rawMs": [
+      66.29783334210515,
+      13.028416666202247,
+      11.126333265565336,
+      10.894875042140484,
+      11.162583366967738,
+      10.943541652522981,
+      10.76799992006272,
+      10.784624959342182,
+      10.734833311289549,
+      10.671500000171363,
+      10.63541672192514,
+      10.69912500679493,
+      10.603083297610283,
+      10.610124911181629,
+      10.561250033788383,
+      10.659791645593941,
+      10.720333433710039,
+      10.591083322651684,
+      10.604666662402451,
+      10.625624912790954,
+      10.615875013172626
+    ],
+    "medianMs": 10.69912500679493,
+    "p95Ms": 13.028416666202247,
+    "maxMs": 66.29783334210515
+  },
+  "rejectedCustomGlobe": {
+    "originalMedianMs": 447.59914581663907,
+    "candidateMedianMs": 464.36402085237205,
+    "candidateP95Ms": 474.8710832791403,
+    "kept": false
+  },
+  "startupBudget": {
+    "allSamplesMs": 100,
+    "medianMs": 11.75,
+    "p95Ms": 13.85
+  },
+  "nativeShortTapNonRegressionBudget": {
+    "medianMs": 477.1,
+    "p95Ms": 499.4,
+    "referenceBuild": "21",
+    "maxRegressionPercent": 5
+  },
+  "finalImprovementPercent": {
+    "medianMs": 18.278683335916,
+    "p95Ms": 15.413394101099287
+  },
+  "nativeFull": {
+    "clock": "ProcessInfo.systemUptime (monotonic seconds)",
+    "enabledKeyboards": [
+      "en_US@sw=QWERTY;hw=Automatic",
+      "emoji@sw=Emoji",
+      "com.shh.boshiamy.keyboard"
+    ],
+    "environment": "iOS Simulator / XCTest / native UITextField host; not physical touch-to-display latency",
+    "measurement": "Before XCTest action to target accessibility readiness; includes event injection, app-idle waits and AX polling. Picker-open/hold time excluded from picker-selection samples.",
+    "samples": [
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 335.78629163093865,
+        "from": "english",
+        "iteration": 0,
+        "readyMilliseconds": 481.72191658522934,
+        "to": "emoji"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 336.2384584033862,
+        "from": "english",
+        "iteration": 1,
+        "readyMilliseconds": 487.1477916603908,
+        "to": "emoji"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 331.63062494713813,
+        "from": "english",
+        "iteration": 2,
+        "readyMilliseconds": 482.4441666714847,
+        "to": "emoji"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 334.9560833303258,
+        "from": "english",
+        "iteration": 3,
+        "readyMilliseconds": 488.352166605182,
+        "to": "emoji"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 333.7278333492577,
+        "from": "english",
+        "iteration": 4,
+        "readyMilliseconds": 478.48283336497843,
+        "to": "emoji"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 386.6998750017956,
+        "from": "emoji",
+        "iteration": 0,
+        "readyMilliseconds": 457.69075001589954,
+        "to": "english"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 382.5392499566078,
+        "from": "emoji",
+        "iteration": 1,
+        "readyMilliseconds": 452.95083324890584,
+        "to": "english"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 384.6539999358356,
+        "from": "emoji",
+        "iteration": 2,
+        "readyMilliseconds": 453.7432083161548,
+        "to": "english"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 383.5863333661109,
+        "from": "emoji",
+        "iteration": 3,
+        "readyMilliseconds": 453.5275832749903,
+        "to": "english"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 386.9640416232869,
+        "from": "emoji",
+        "iteration": 4,
+        "readyMilliseconds": 455.94424998853356,
+        "to": "english"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 336.4039999432862,
+        "from": "english",
+        "iteration": 0,
+        "readyMilliseconds": 417.5667082890868,
+        "to": "mi"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 335.0000833161175,
+        "from": "english",
+        "iteration": 1,
+        "readyMilliseconds": 416.00720840506256,
+        "to": "mi"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 331.18504169397056,
+        "from": "english",
+        "iteration": 2,
+        "readyMilliseconds": 410.2945000631735,
+        "to": "mi"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 333.1383334007114,
+        "from": "english",
+        "iteration": 3,
+        "readyMilliseconds": 412.8132500918582,
+        "to": "mi"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 334.9893749691546,
+        "from": "english",
+        "iteration": 4,
+        "readyMilliseconds": 410.1754166185856,
+        "to": "mi"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 366.735375020653,
+        "from": "mi",
+        "iteration": 0,
+        "readyMilliseconds": 437.5962499761954,
+        "to": "english"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 358.7553750257939,
+        "from": "mi",
+        "iteration": 1,
+        "readyMilliseconds": 421.05270829051733,
+        "to": "english"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 369.0524999983609,
+        "from": "mi",
+        "iteration": 2,
+        "readyMilliseconds": 439.823416643776,
+        "to": "english"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 366.60062498413026,
+        "from": "mi",
+        "iteration": 3,
+        "readyMilliseconds": 424.964000005275,
+        "to": "english"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 369.74295834079385,
+        "from": "mi",
+        "iteration": 4,
+        "readyMilliseconds": 429.4298749882728,
+        "to": "english"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 381.3039166852832,
+        "from": "emoji",
+        "iteration": 0,
+        "readyMilliseconds": 461.42850001342595,
+        "to": "mi"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 376.96966668590903,
+        "from": "emoji",
+        "iteration": 1,
+        "readyMilliseconds": 455.34379163291305,
+        "to": "mi"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 371.04258337058127,
+        "from": "emoji",
+        "iteration": 2,
+        "readyMilliseconds": 442.18150002416223,
+        "to": "mi"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 376.11000007018447,
+        "from": "emoji",
+        "iteration": 3,
+        "readyMilliseconds": 455.8485416928306,
+        "to": "mi"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 387.8292499575764,
+        "from": "emoji",
+        "iteration": 4,
+        "readyMilliseconds": 467.12862490676343,
+        "to": "mi"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 357.95674996916205,
+        "from": "mi",
+        "iteration": 0,
+        "readyMilliseconds": 508.36866663303226,
+        "to": "emoji"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 369.39691670704633,
+        "from": "mi",
+        "iteration": 1,
+        "readyMilliseconds": 516.5390417678282,
+        "to": "emoji"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 358.5049166576937,
+        "from": "mi",
+        "iteration": 2,
+        "readyMilliseconds": 504.0436666458845,
+        "to": "emoji"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 366.9882083777338,
+        "from": "mi",
+        "iteration": 3,
+        "readyMilliseconds": 510.251083294861,
+        "to": "emoji"
+      },
+      {
+        "action": "pickerSelection",
+        "actionMilliseconds": 359.87558332271874,
+        "from": "mi",
+        "iteration": 4,
+        "readyMilliseconds": 505.4246666841209,
+        "to": "emoji"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 355.5334167322144,
+        "from": "mi",
+        "iteration": 0,
+        "previousNative": "english",
+        "readyMilliseconds": 411.3702083704993,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 361.7871250025928,
+        "from": "mi",
+        "iteration": 1,
+        "previousNative": "english",
+        "readyMilliseconds": 419.48287503328174,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 384.1116667026654,
+        "from": "mi",
+        "iteration": 2,
+        "previousNative": "english",
+        "readyMilliseconds": 453.64483329467475,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 378.64341668318957,
+        "from": "mi",
+        "iteration": 3,
+        "previousNative": "english",
+        "readyMilliseconds": 446.6912916395813,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 378.65058332681656,
+        "from": "mi",
+        "iteration": 4,
+        "previousNative": "english",
+        "readyMilliseconds": 447.0326666487381,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 381.12779171206057,
+        "from": "mi",
+        "iteration": 0,
+        "previousNative": "emoji",
+        "readyMilliseconds": 453.9128750329837,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 390.2104584267363,
+        "from": "mi",
+        "iteration": 1,
+        "previousNative": "emoji",
+        "readyMilliseconds": 460.88591672014445,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 378.38274997193366,
+        "from": "mi",
+        "iteration": 2,
+        "previousNative": "emoji",
+        "readyMilliseconds": 450.0572916585952,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 370.46429165638983,
+        "from": "mi",
+        "iteration": 3,
+        "previousNative": "emoji",
+        "readyMilliseconds": 439.00937493890524,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 357.8014583326876,
+        "from": "mi",
+        "iteration": 4,
+        "previousNative": "emoji",
+        "readyMilliseconds": 425.90025009121746,
+        "to": "english"
+      }
+    ],
+    "schemaVersion": 1,
+    "routeSummary": {
+      "english/emoji/pickerSelection": {
+        "count": 5,
+        "medianMs": 482.4441666714847,
+        "p95Ms": 488.352166605182
+      },
+      "emoji/english/pickerSelection": {
+        "count": 5,
+        "medianMs": 453.7432083161548,
+        "p95Ms": 457.69075001589954
+      },
+      "english/mi/pickerSelection": {
+        "count": 5,
+        "medianMs": 412.8132500918582,
+        "p95Ms": 417.5667082890868
+      },
+      "mi/english/pickerSelection": {
+        "count": 5,
+        "medianMs": 429.4298749882728,
+        "p95Ms": 439.823416643776
+      },
+      "emoji/mi/pickerSelection": {
+        "count": 5,
+        "medianMs": 455.8485416928306,
+        "p95Ms": 467.12862490676343
+      },
+      "mi/emoji/pickerSelection": {
+        "count": 5,
+        "medianMs": 508.36866663303226,
+        "p95Ms": 516.5390417678282
+      },
+      "mi/english/shortTap": {
+        "count": 10,
+        "medianMs": 446.8619791441597,
+        "p95Ms": 460.88591672014445
+      }
+    }
+  },
+  "nativeFocused": {
+    "baselineBuild": "21",
+    "measurement": "Identical to build 21: XCTest tap to target AX readiness, includes injection/idle/AX overhead",
+    "samples": [
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 371.13295833114535,
+        "from": "mi",
+        "iteration": 0,
+        "previousNative": "english",
+        "readyMilliseconds": 442.5084167160094,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 376.2424166779965,
+        "from": "mi",
+        "iteration": 1,
+        "previousNative": "english",
+        "readyMilliseconds": 445.61608333606273,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 356.7532500019297,
+        "from": "mi",
+        "iteration": 2,
+        "previousNative": "english",
+        "readyMilliseconds": 426.7834583297372,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 361.7264583008364,
+        "from": "mi",
+        "iteration": 3,
+        "previousNative": "english",
+        "readyMilliseconds": 419.59424992091954,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 376.54058332554996,
+        "from": "mi",
+        "iteration": 4,
+        "previousNative": "english",
+        "readyMilliseconds": 432.99204169306904,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 375.54308341350406,
+        "from": "mi",
+        "iteration": 0,
+        "previousNative": "emoji",
+        "readyMilliseconds": 435.2566667366773,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 362.3392500448972,
+        "from": "mi",
+        "iteration": 1,
+        "previousNative": "emoji",
+        "readyMilliseconds": 434.0047083096579,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 371.9497083220631,
+        "from": "mi",
+        "iteration": 2,
+        "previousNative": "emoji",
+        "readyMilliseconds": 441.46120827645063,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 379.98841668013483,
+        "from": "mi",
+        "iteration": 3,
+        "previousNative": "emoji",
+        "readyMilliseconds": 449.36341664288193,
+        "to": "english"
+      },
+      {
+        "action": "shortTap",
+        "actionMilliseconds": 375.43483334593475,
+        "from": "mi",
+        "iteration": 4,
+        "previousNative": "emoji",
+        "readyMilliseconds": 445.4326250124723,
+        "to": "english"
+      }
+    ],
+    "schemaVersion": 1,
+    "routeSummary": {
+      "mi/english/shortTap": {
+        "count": 10,
+        "medianMs": 438.35893750656396,
+        "p95Ms": 449.36341664288193
+      }
+    }
+  },
+  "verification": {
+    "releaseUnitTestsPassed": 42,
+    "nativeThreeKeyboardUITestsPassed": 3,
+    "practiceUITestsPassed": 7,
+    "fixedBuild5ChecksPassed": 10,
+    "failedTests": 0,
+    "skippedTests": 0,
+    "baselineManifestSHA256": "81b9de9bbfb7bc0b7bbad318a978f69d687cdbbeeae596d72821d4082605339b",
+    "performanceRatios": {
+      "visible_candidate_7_type_delete": {
+        "paired_median_ratio": 0.4784756095353517,
+        "p95_ratio": 0.47684455688701083
+      },
+      "visible_candidate_1000_type_delete": {
+        "paired_median_ratio": 0.4901322787058278,
+        "p95_ratio": 0.5624761135477364
+      },
+      "visible_changing_candidate_lists_1000": {
+        "paired_median_ratio": 0.8272040720237174,
+        "p95_ratio": 0.8384125219571764
+      },
+      "visible_real_dictionary_hx_a": {
+        "paired_median_ratio": 0.9713766965864512,
+        "p95_ratio": 0.9735621340334736
+      },
+      "visible_cold_first_type_after_table_load": {
+        "paired_median_ratio": 0.6994714673164945,
+        "p95_ratio": 0.7595845472430082
+      },
+      "visible_symbol_toggle_pair": {
+        "paired_median_ratio": 0.5951243736535543,
+        "p95_ratio": 0.6011027564345846
+      },
+      "visible_english_once_type_delete": {
+        "paired_median_ratio": 0.6566906240177374,
+        "p95_ratio": 0.7335336651735846
+      }
+    }
+  }
+}

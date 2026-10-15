@@ -14,6 +14,6 @@ The keyboard uses the dictionary shipped with the app. Updating the app updates 
 
 `KeyboardView` coordinates actions and rendering. Concrete `KeyboardButton`, `KeyboardRow`, `KeyPreview` and candidate layout/cell types own their existing UIKit behavior in focused files. One page enum represents alphabet/first-symbol/second-symbol pages; one query enum holds normal/seed/resolved homophone state. Permanently hidden F/J marker layers and redundant row casts are removed.
 
-Caption caches, bounded candidate frame caches and packed decoding remain because they support immediate updates and the permanent performance gate. No new protocols or dependency layers were introduced. The immutable shipped build 5 source, manifest and comparator transformation remain unchanged, including its historical import implementation solely for benchmark comparison.
+A key creates its primary caption immediately and its alternate caption on first use; both are cached afterward. The inherited UIButton title label is unused. Caption caches, bounded candidate frame caches and packed decoding remain because they support immediate updates and the permanent performance gate. No new protocols or dependency layers were introduced. The immutable shipped build 5 source, manifest and comparator transformation remain unchanged, including its historical import implementation solely for benchmark comparison.
 
 See [tests](TESTING.md) and [performance gate](PERFORMANCE.md).

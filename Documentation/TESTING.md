@@ -44,3 +44,7 @@ The separate `KeyboardSwitchUITests` target adds three Release integration cases
 ## Native activation regressions
 
 `ActivationTests` exercises the production input controller with the real packed dictionary: one installation per controller lifetime, composition cancellation and 100 ms app-owned activation budgets. It does not assert a native touch-to-display deadline. See [switch-speed evidence and remaining limits](SWITCH-SPEED.md).
+
+## Version 1.0 (22): lean caption construction
+
+42 Release unit cases, three native three-keyboard UI cases (including the new ten-sample short-tap budget), seven focused practice UI cases and ten fixed-build-5 checks passed. Startup checks now enforce Release median <= 11.75 ms and p95 <= 13.85 ms, plus all samples <= 100 ms. The caption regression checks first-use color/font and subsequent cache reuse. [Before/after data, scope and commands](SWITCH-IMPROVEMENT.md).

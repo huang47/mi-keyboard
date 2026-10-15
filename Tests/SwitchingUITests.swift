@@ -1,6 +1,12 @@
 import XCTest
 
 final class KeyboardSwitchUITests: XCTestCase {
+    private func requireReleasePerformanceBuild() throws {
+        #if DEBUG
+        throw XCTSkip("Simulator timing budgets require the Release configuration")
+        #endif
+    }
+
     private enum SwitchKeyboard: String, CaseIterable {
         case mi, english, emoji
 
@@ -190,6 +196,41 @@ final class KeyboardSwitchUITests: XCTestCase {
                 record(from: from, to: to, action: "pickerSelection", iteration: iteration) { entry.tap() }
             }
         }
+        try recordEmbeddedGlobeSamples(in: app, samples: &samples)
+        XCTAssertEqual(samples.count, 40)
+        try selectKeyboard(.english, in: app)
+    }
+
+    /// Fixed Simulator regression budget against the 1.0 (21) short-tap baseline.
+    func testThreeKeyboardsShortTapRegressionBudget() throws {
+        try requireReleasePerformanceBuild()
+        let app = threeKeyboardHost()
+        var samples: [[String: Any]] = []
+        func retainSamples() {
+            let data = try! JSONSerialization.data(withJSONObject: ["schemaVersion": 1,
+                "measurement": "Identical to build 21: XCTest tap to target AX readiness, includes injection/idle/AX overhead",
+                "baselineBuild": "21", "samples": samples], options: [.prettyPrinted, .sortedKeys])
+            let attachment = XCTAttachment(data: data, uniformTypeIdentifier: "public.json")
+            attachment.name = "keyboard-short-tap-latency"
+            attachment.lifetime = .keepAlways
+            add(attachment)
+        }
+        for keyboard in [SwitchKeyboard.english, .emoji, .mi, .english] {
+            try selectKeyboard(keyboard, in: app)
+        }
+        try recordEmbeddedGlobeSamples(in: app, samples: &samples)
+        retainSamples() // Persist before XCTest budget assertions can terminate the method.
+        XCTAssertEqual(samples.count, 10)
+        let values = samples.compactMap { $0["readyMilliseconds"] as? Double }.sorted()
+        XCTAssertEqual(values.count, 10)
+        XCTAssertTrue(values.allSatisfy { $0.isFinite && $0 > 0 })
+        let median = (values[4] + values[5]) / 2
+        XCTAssertLessThanOrEqual(median, 477.1, "No more than 5% slower than build 21's 454.4 ms median; Simulator/XCTest only")
+        XCTAssertLessThanOrEqual(values[9], 499.4, "No more than 5% slower than build 21's 475.6 ms p95; n=10")
+        try selectKeyboard(.english, in: app)
+    }
+
+    private func recordEmbeddedGlobeSamples(in app: XCUIApplication, samples: inout [[String: Any]]) throws {
         // Establish each native predecessor separately; never assume short tap always means English.
         for previous in [SwitchKeyboard.english, .emoji] {
             for iteration in 0..<5 {
@@ -211,8 +252,6 @@ final class KeyboardSwitchUITests: XCTestCase {
                     "readyMilliseconds": (ready - start) * 1000])
             }
         }
-        XCTAssertEqual(samples.count, 40)
-        try selectKeyboard(.english, in: app)
     }
 
     /// Run after externally terminating the extension process; the JSON does not claim OS caches are cold.
